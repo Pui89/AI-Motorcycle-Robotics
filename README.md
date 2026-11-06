@@ -52,4 +52,9 @@ This repository is an initial software and research scaffold. It does not contai
 
 ## License
 
-No license has been selected yet. Unless and until a license is added, standard copyright restrictions apply; do not assume this repository is open source.
+This project is licensed under the MIT License. See [LICENSE](LICENSE). The licence permits commercial use subject to its conditions; third-party assets retain their own terms.
+
+
+## Commercial product readiness
+
+This project follows the [PUI89 Commercial Product & Company-Readiness Standard](PUI89_COMMERCIAL_PRODUCT_STANDARD.md). The root [LICENSE](LICENSE) is MIT and permits commercial use subject to its terms; third-party assets retain their own terms. Commercial readiness, safety, road approval and performance require evidence.
