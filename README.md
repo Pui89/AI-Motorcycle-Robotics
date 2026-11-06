@@ -82,6 +82,14 @@ This repository is an initial software and research scaffold. It does not contai
 - `tests/` — software-only tests.
 - `.github/workflows/quality.yml` — dependency-light automated checks.
 
+## PUI89 portfolio links
+
+- **English project page:** [PUI89 EasyRide AI Motorcycle](https://pui89.github.io/ai-robot-motorcycle.html)
+- **Thai project page:** [PUI89 EasyRide AI Motorcycle — ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html)
+- **PUI89 main portfolio:** [https://pui89.github.io/](https://pui89.github.io/)
+- **Website source repository:** [Pui89/Pui89.github.io](https://github.com/Pui89/Pui89.github.io)
+- **Car companion project:** [PUI89 AI Robot Car](https://github.com/Pui89/ai-robot-car)
+
 ## License
 
 See the repository's [LICENSE](LICENSE) file for the applicable permissions and conditions.
