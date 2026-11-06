@@ -4,6 +4,12 @@
 **Project type:** Advanced AI-enabled motorcycle concept; software-first, simulation-first  
 **Status:** Early-stage concept and engineering foundation — not a built, tested, or road-certified vehicle.
 
+## Design concept
+
+![PUI89 AI Robot Motorcycle concept](docs/images/ai-robot-motorcycle-concept.svg)
+
+The proposed design direction is an electric sport-touring motorcycle with conceptual forward/rear awareness modules, rider-facing low-distraction advisory interface, modeled wheel/traction-state observations, and an enclosed electric power-module layout. These are visual research concepts, not verified hardware specifications. See [Design Concept](docs/DESIGN_CONCEPT.md) for scope, architecture, safety boundaries and evidence status.
+
 ## Mission
 
 Develop a safety-first intelligent motorcycle platform that can assist a rider through perception, hazard awareness, vehicle-state monitoring, explainable warnings, and carefully bounded decision support. The rider remains responsible for control. No autonomous riding or physical actuation is enabled by this repository.
@@ -35,6 +41,9 @@ Develop a safety-first intelligent motorcycle platform that can assist a rider t
 5. Consider hardware only after documented safety reviews, legal review, and qualified engineering validation.
 
 ## Repository map
+
+- `docs/DESIGN_CONCEPT.md` — visual design direction, conceptual sensing zones, AI workflow, safety boundaries and evidence status.
+- `docs/images/ai-robot-motorcycle-concept.svg` — original vector concept illustration.
 
 - `docs/PROJECT_PLAN.md` — scope, architecture, and staged roadmap.
 - `docs/SAFETY_CASE.md` — hazards, safeguards, and validation boundaries.
