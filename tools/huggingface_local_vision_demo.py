@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 MODEL_ID = "google/owlvit-base-patch32"
-MODEL_REVISION = "main"
+MODEL_REVISION = "cbc355fb364588351c5d51c7f74465e8e7ec6f72"
 PROJECT = "ai-robot-motorcycle"
 DEFAULT_LABELS = ["pedestrian","car","motorcycle","bicycle","traffic light","stop sign","road debris","pothole"]
 TASK_SCOPE = "Road-scene object localization for rider advisory research only; not motorcycle-grade perception or rider/vehicle control."
