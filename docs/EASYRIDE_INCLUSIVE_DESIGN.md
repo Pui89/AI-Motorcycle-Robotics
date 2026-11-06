@@ -9,6 +9,8 @@ Design for a broad range of adult riders, including women, older adults, shorter
 
 ## Proposed design features
 - **Low step-through frame:** wide, unobstructed entry with no high leg swing; rounded edges and protected pinch points.
+- **Skirt- and dress-conscious layout:** preserve a low, wide step-through opening so a rider can mount without a high leg swing; provide a broad, flat, non-slip footboard with clear foot placement; use smooth, snag-resistant side panels and a full chain/belt enclosure; shield hot or moving parts; avoid exposed hooks, sharp edges and protruding fasteners near clothing. Evaluate modesty, hem clearance and safe foot access while stationary and during mounting/dismounting. Never imply that every skirt length or garment is safe for riding.
+- **Clothing compatibility is not a substitute for riding gear:** advise secure clothing and appropriate protective equipment; loose hems, scarves and long fabric can still catch in moving parts or wheels.
 - **Upright neutral posture:** relaxed handlebar reach, natural wrist angle, low-effort steering geometry and a broad, supportive seat.
 - **Adjustability:** evaluate more than one seat-height / reach configuration; controls should be reachable without stretching. Final ranges require ergonomic user trials.
 - **Low centre of gravity:** package battery and heavy components low and centrally, while preserving ground clearance and service access.
@@ -42,6 +44,7 @@ The AI must not independently steer, accelerate, brake, balance or override the 
 2. Ergonomic mock-up evaluation: step-through clearance, seat reach, handlebar reach, foot placement and mounting effort.
 3. Static structural and load analysis by qualified engineers.
 4. Simulated low-speed manoeuvring, braking and traction scenarios.
+5. Clothing-clearance and snag-risk review using varied skirt/dress lengths, fabrics and footwear; assess stationary mounting/dismounting and safe foot placement without fabric entering wheels or moving parts.
 5. Controlled prototype testing only after design reviews, legal approval and qualified supervision.
 6. Independent verification against applicable motorcycle regulations and standards in each target market.
 
