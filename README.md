@@ -35,6 +35,14 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 - **Security by default:** least privilege, dependency and secret checks, protected branches and review before release.
 - **No unsupported performance or road-safety claims.**
 
+## Large under-seat storage concept
+
+- Design a **large, lockable under-seat cargo compartment** with a wide opening and practical access for bulky everyday items; the final usable volume and maximum item dimensions remain to be engineered and measured.
+- Explore a removable internal divider, durable liner, drain-managed weather sealing and a secure latch, while keeping the seat comfortable and easy to open.
+- Package storage around—not at the expense of—the battery enclosure, frame strength, suspension travel, wheel clearance, cooling, service access or electrical isolation. Do not place cargo against hot or moving components.
+- Set and label a verified cargo-mass limit only after structural, stability, braking and handling analysis. Keep heavy cargo low and close to the vehicle centreline; prevent items shifting while riding.
+- Validate fit with representative bulky items, including a full-face helmet and a compact travel bag, without claiming that every large item will fit.
+
 ## Inclusive rider-first requirements
 
 - Make mounting and dismounting easier with a low, wide step-through opening, including for riders wearing skirts or dresses.
