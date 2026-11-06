@@ -54,6 +54,28 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 4. Safety supervisor: confidence thresholds, stale-data detection, conflict handling, safe degradation and human override.
 5. Evidence and evaluation: scenario-based tests, false-positive/false-negative tracking, latency measurement and reproducible reports.
 
+## Agentic AI, VLM and VLA research direction
+
+The roadmap explores three complementary areas for rider-first assistance. These are **planned research directions**, not claims that the models or capabilities are already implemented.
+
+### 1. Agentic AI — bounded rider-support agents
+- Explore agents for organizing observations, checking data freshness, summarizing road/weather context, tracking vehicle-health evidence and preparing understandable rider advisories.
+- Require explicit task boundaries, provenance, confidence, uncertainty reporting and human approval for consequential outputs.
+- Keep deterministic safety gates independent of agent reasoning. Agents cannot control the motorcycle or override the rider.
+
+### 2. Vision-Language Models (VLMs) — visual scene understanding
+- Research image-and-text understanding for road-surface conditions, obstacles, signs, visibility, nearby objects and vehicle inspection observations.
+- Evaluate lighting, rain, occlusion, camera placement, motion blur, domain shift, false alarms and missed hazards using licensed datasets or synthetic scenarios.
+- Treat every output as an uncertain observation with source and timestamp; use clear advisory wording and preserve rider attention.
+
+### 3. Vision-Language-Action (VLA) — mock action proposals only
+- Study VLA methods in simulation to translate visual/language context into structured **non-executing** proposals, such as “increase following-distance awareness” or “ask the rider to inspect a warning”.
+- Store proposals as typed **ActionProposal** records with preconditions, confidence, expected effects, risk and evidence references.
+- Do not generate or execute steering, throttle, braking, acceleration, gear, motor, battery or other physical-control commands. The rider remains in control at all times.
+- Any future hardware study requires a separate safety case, qualified engineering, regulatory review and validated rider testing.
+
+**Research sequence:** shared AI Core contracts → deterministic rider-advisory baseline → synthetic/simulation scenarios → VLM evaluation → bounded agent orchestration → mock VLA proposals → robustness, usability and safety evaluation. No new model weights, packages, paid APIs, subscriptions or cloud compute are required or authorized by this roadmap.
+
 ## Development stages
 
 1. Define requirements, hazards, operating boundaries and shared AI Core interfaces.
