@@ -1,0 +1,50 @@
+name: PUI89 security baseline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.py"
+      - ".github/workflows/**"
+      - "SECURITY.md"
+  pull_request:
+    paths:
+      - "**/*.py"
+      - ".github/workflows/**"
+      - "SECURITY.md"
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+
+concurrency:
+  group: pui89-security-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  secret-patterns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan current repository for common exposed credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -R -n -I -E 'BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}' --exclude-dir=.git .; then
+            echo "Potential secret material detected; investigate without printing or copying the value."
+            exit 1
+          fi
+
+  codeql:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v4
+        with:
+          languages: python, actions
+      - uses: github/codeql-action/analyze@v4
