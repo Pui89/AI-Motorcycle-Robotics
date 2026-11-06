@@ -20,6 +20,18 @@ Design for a broad range of adult riders, including women, older adults, shorter
 - **Weather and durability:** sealed connectors, drainage paths, corrosion-resistant fasteners, replaceable wear parts, impact-protected wiring and serviceable panels. No IP rating, waterproof or fire-resistance claim until tested.
 - **Inclusive fit:** validate reach, mounting, foot placement, turning, parking and stopping for varied body sizes and abilities. Some riders may require adapted controls or a different vehicle class.
 
+## Large under-seat cargo storage
+
+The concept should include a generously sized, lockable under-seat storage bay for bulky everyday carry items. The usable shape and volume must be designed around the frame, battery, suspension and rider ergonomics rather than assumed from the illustration.
+
+- Use a wide seat opening and a practical compartment shape; assess whether a full-face helmet and a compact travel bag can fit in representative configurations. These are fit-test targets, not guaranteed capacity.
+- Consider a removable divider, durable wipe-clean liner, secure latch and weather-managed sealing/drainage. Do not claim waterproofing before ingress testing.
+- Maintain battery isolation, thermal clearances, ventilation requirements, frame strength, suspension movement, wheel clearance and service access. Cargo must not contact hot, electrical or moving parts.
+- Establish a maximum cargo mass and centre-of-gravity envelope through qualified structural, stability, braking and handling analysis. Secure items against movement and prohibit overloading.
+- Test opening effort, pinch points, seat support, access while parked and the effect of loaded storage on rider fit and vehicle handling.
+
+Storage capacity, cargo rating and weather protection remain unvalidated design requirements.
+
 ## AI assistance — rider remains in control
 Potential software features:
 1. Road-condition and hazard awareness with uncertainty labels.
