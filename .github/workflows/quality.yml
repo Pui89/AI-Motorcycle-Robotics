@@ -1,8 +1,6 @@
 name: Quality checks
 
 on:
-  push:
-    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -16,13 +14,20 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
-
-      - name: Check required project documents
+      - name: Check required project files
         run: |
           test -s README.md
           test -s SECURITY.md
           test -s docs/PROJECT_PLAN.md
           test -s docs/SAFETY_CASE.md
-
-      - name: Check for accidental whitespace errors
+          test -s docs/simulation/MOTORCYCLE_RISK_SCENARIOS.json
+          test -s src/pui89_motorcycle/risk_baseline.py
+          test -s tests/test_motorcycle_risk_scenarios.py
+      - name: Validate scenario JSON
+        run: python -m json.tool docs/simulation/MOTORCYCLE_RISK_SCENARIOS.json > /dev/null
+      - name: Run dependency-free regression tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Check whitespace errors
         run: git diff --check
