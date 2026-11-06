@@ -115,3 +115,13 @@ This repository is an initial software and research scaffold. It does not contai
 ## License
 
 See the repository's [LICENSE](LICENSE) file for the applicable permissions and conditions.
+
+
+## Hugging Face vision models — opt-in local integration
+
+This repository now includes real Hugging Face checkpoint adapters in [`pui89_models/hf_vision.py`](pui89_models/hf_vision.py), with project-specific usage boundaries in [`docs/HUGGING_FACE_MODEL_INTEGRATION.md`](docs/HUGGING_FACE_MODEL_INTEGRATION.md).
+
+- **OWLv2:** `google/owlv2-base-patch16-ensemble` for text-conditioned object proposals.
+- **Depth Anything V2 Small:** `depth-anything/Depth-Anything-V2-Small-hf` for relative scene depth where appropriate; not calibrated distance or physical depth.
+- **Zero-cost default:** no packages or model weights are installed/downloaded automatically; CPU-only inference, local cache only by default, no hosted inference API or cloud GPU.
+- **Evidence status:** adapter code is added; model inference and project-specific accuracy are NOT YET TESTED. Outputs remain uncertain observations for human review, never actuator commands.
