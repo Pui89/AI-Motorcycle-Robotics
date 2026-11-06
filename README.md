@@ -42,6 +42,10 @@ Develop a safety-first intelligent motorcycle platform that can assist a rider t
 - `tests/` — software-only tests.
 - `.github/workflows/quality.yml` — dependency-light automated checks.
 
+## Free AI and advanced engineering resources
+
+Use the curated [PUI89 Free AI & Advanced Engineering Stack](docs/FREE_AI_TECH_STACK.md). It covers local AI runtimes, agentic workflows, computer vision, vehicle/robot simulation, CAD, testing and security tools. All adoption is subject to the strict zero-cost gate, exact licence review, hardware feasibility checks and simulation-only safety boundary.
+
 ## Current truth
 
 This repository is an initial software and research scaffold. It does not contain a functioning motorcycle, validated perception model, real-time vehicle integration, or certified safety system. All outputs are advisory prototypes until independently validated.
