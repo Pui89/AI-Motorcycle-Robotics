@@ -1,0 +1,186 @@
+{
+  "standard": "PUI89 motorcycle synthetic scenario set v1",
+  "status": "SYNTHETIC_DESIGN_FIXTURE_NOT_REAL_WORLD_VALIDATION",
+  "scope": "Software-only deterministic tests. Values are illustrative and are not safe operating thresholds.",
+  "scenarios": [
+    {
+      "id": "MC-001",
+      "name": "Dry clear baseline",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 0.9,
+        "visibility_m": 200,
+        "obstacle_distance_m": 80,
+        "observation_age_ms": 100
+      },
+      "expected": "NORMAL"
+    },
+    {
+      "id": "MC-002",
+      "name": "Wet surface advisory",
+      "input": {
+        "surface": "wet",
+        "traction_estimate": 0.65,
+        "visibility_m": 150,
+        "obstacle_distance_m": 80,
+        "observation_age_ms": 100
+      },
+      "expected": "ADVISORY"
+    },
+    {
+      "id": "MC-003",
+      "name": "Gravel surface advisory",
+      "input": {
+        "surface": "gravel",
+        "traction_estimate": 0.6,
+        "visibility_m": 100,
+        "obstacle_distance_m": 60,
+        "observation_age_ms": 120
+      },
+      "expected": "ADVISORY"
+    },
+    {
+      "id": "MC-004",
+      "name": "Low visibility advisory",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 0.8,
+        "visibility_m": 25,
+        "obstacle_distance_m": 60,
+        "observation_age_ms": 100
+      },
+      "expected": "ADVISORY"
+    },
+    {
+      "id": "MC-005",
+      "name": "Low traction warning",
+      "input": {
+        "surface": "wet",
+        "traction_estimate": 0.2,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "WARNING"
+    },
+    {
+      "id": "MC-006",
+      "name": "Ice surface warning",
+      "input": {
+        "surface": "ice",
+        "traction_estimate": 0.5,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "WARNING"
+    },
+    {
+      "id": "MC-007",
+      "name": "Oil surface warning",
+      "input": {
+        "surface": "oil",
+        "traction_estimate": 0.5,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "WARNING"
+    },
+    {
+      "id": "MC-008",
+      "name": "Close obstacle warning",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 0.8,
+        "visibility_m": 100,
+        "obstacle_distance_m": 12,
+        "observation_age_ms": 100
+      },
+      "expected": "WARNING"
+    },
+    {
+      "id": "MC-009",
+      "name": "Very close obstacle critical",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 0.8,
+        "visibility_m": 100,
+        "obstacle_distance_m": 3,
+        "observation_age_ms": 100
+      },
+      "expected": "CRITICAL"
+    },
+    {
+      "id": "MC-010",
+      "name": "Extremely low traction critical",
+      "input": {
+        "surface": "wet",
+        "traction_estimate": 0.05,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "CRITICAL"
+    },
+    {
+      "id": "MC-011",
+      "name": "Stale observation degraded",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 0.8,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 1800
+      },
+      "expected": "UNKNOWN_DEGRADED"
+    },
+    {
+      "id": "MC-012",
+      "name": "Unknown surface degraded",
+      "input": {
+        "surface": "unclassified",
+        "traction_estimate": 0.8,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "UNKNOWN_DEGRADED"
+    },
+    {
+      "id": "MC-013",
+      "name": "Missing traction degraded",
+      "input": {
+        "surface": "dry",
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "UNKNOWN_DEGRADED"
+    },
+    {
+      "id": "MC-014",
+      "name": "Invalid traction range degraded",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": 1.4,
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "UNKNOWN_DEGRADED"
+    },
+    {
+      "id": "MC-015",
+      "name": "Invalid numeric type degraded",
+      "input": {
+        "surface": "dry",
+        "traction_estimate": "high",
+        "visibility_m": 100,
+        "obstacle_distance_m": 50,
+        "observation_age_ms": 100
+      },
+      "expected": "UNKNOWN_DEGRADED"
+    }
+  ]
+}
