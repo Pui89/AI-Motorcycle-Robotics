@@ -1,0 +1,28 @@
+name: Quality checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  basic-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Check required project documents
+        run: |
+          test -s README.md
+          test -s SECURITY.md
+          test -s docs/PROJECT_PLAN.md
+          test -s docs/SAFETY_CASE.md
+
+      - name: Check for accidental whitespace errors
+        run: git diff --check
