@@ -25,3 +25,8 @@ Do not include secrets, personal data, or unsafe instructions.
 - Require review and passing checks before merging when repository settings permit.
 - Treat generated/model-produced content as untrusted input.
 - No physical vehicle, actuator, or safety-critical hardware testing is in scope.
+
+
+## Automated verification
+
+This repository currently contains project documentation and GitHub Actions workflow definitions rather than Python application source. The security workflow therefore scans the GitHub Actions workflow language and checks the current repository for common exposed-credential patterns. A successful scan is not hardware validation or proof of vehicle safety.
