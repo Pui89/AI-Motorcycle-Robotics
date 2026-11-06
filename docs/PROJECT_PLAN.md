@@ -1,108 +1,74 @@
 # Project Plan — PUI89 AI Robot Motorcycle
 
-## 1. Product definition
-
-A future AI-enabled motorcycle assistance platform. The first deliverable is a software-only research prototype, not a rideable vehicle or autonomous driving system.
+## Product definition
+A future AI-enabled motorcycle assistance platform. The first deliverable is a software-only research prototype, not a rideable vehicle or autonomous riding system.
 
 ### Intended assistance functions
-
 - Detect and communicate possible hazards from available observations.
 - Monitor modeled vehicle health and identify abnormal or missing telemetry.
-- Track uncertainty, data freshness, sensor disagreement, and evidence provenance.
+- Track uncertainty, freshness, sensor disagreement, and evidence provenance.
 - Present concise recommendations to a human rider.
 - Enter a conservative degraded state when inputs are missing, stale, conflicting, or unreliable.
 
-### Explicit exclusions for the initial phase
-
+### Explicit exclusions
 - No autonomous steering, throttle, braking, lane changes, or riding.
-- No direct connection to a real vehicle, CAN bus, ECU, battery-management system, or actuator.
-- No claims of roadworthiness, collision avoidance, or certified functional safety.
-- No collection or processing of personal/rider data beyond synthetic test fixtures.
+- No connection to a real vehicle, CAN bus, ECU, BMS, or actuator.
+- No roadworthiness, collision-avoidance, or certified functional-safety claims.
+- Synthetic fixtures only in this phase; no rider personal data.
 
-## 2. Shared PUI89 AI Core integration
+## Shared PUI89 AI Core
+Reuse, do not fork, the shared Observation, WorldState, ActionProposal, and FailureReport contracts. Required capabilities: evidence integrity, uncertainty propagation, missing/noisy/stale/conflicting-data handling, safety gates, human override, reproducible benchmarks, and clear implemented/simulated/proposed/validated labels. Runtime integration remains DESIGN_ONLY_NOT_CONNECTED until adapters and cross-repository tests exist.
 
-Reuse the shared PUI89 architecture rather than creating project-specific copies of core infrastructure. Align to these contracts:
+## Software architecture
+1. Synthetic scenario input.
+2. Schema, range, provenance, and freshness validation.
+3. Transparent deterministic baseline.
+4. Risk-state classification with traceable rationale.
+5. Advisory-only safety boundary.
+6. Scenario replay and regression evidence.
 
-- `Observation`: source, timestamp, observed value, quality, confidence, and provenance.
-- `WorldState`: current modeled state, freshness, uncertainty, and known limitations.
-- `ActionProposal`: advisory proposal only; explicit authority boundary and rationale.
-- `FailureReport`: failure mode, severity, evidence, containment, and recovery recommendation.
+No physical sensor, vehicle bus, or actuator interface is included.
 
-Required cross-cutting capabilities:
+## Motorcycle-specific risks
+- Rider fall, loss of balance, and lean-state uncertainty.
+- Reduced traction, wheel slip, wet paint, gravel, mud, oil, ice, potholes, and uneven road surfaces.
+- Braking and stopping-distance uncertainty; no real stopping-distance guarantee is modeled.
+- Nearby vehicles, pedestrians, cyclists, blind spots, and closing hazards.
+- Poor visibility, glare, rain, night conditions, and occlusion.
+- Battery/electrical faults, overheating, water ingress, fire, vibration, and connector damage.
+- Rider distraction from excessive, late, ambiguous, or false alerts.
+- Cybersecurity, malicious inputs, sensor spoofing, and compromised updates.
 
-- Evidence integrity and provenance.
-- Uncertainty propagation and calibration records.
-- Missing, noisy, stale, and conflicting evidence handling.
-- Safety gates and human override.
-- Reproducible benchmark and regression records.
-- Clear status labels: implemented, simulated, proposed, and validated.
+## Strict zero-cost policy
+Allowed by default: Python standard library, Git, synthetic fixtures, and free documentation. No paid APIs, subscriptions, paid datasets, cloud GPUs, paid runners, or metered services. Before adopting any model/package/tool, check licence, commercial-use terms, privacy, disk/RAM requirements, and billing exposure. Do not install dependencies merely for convenience.
 
-Do not duplicate shared components. Record the version or commit of any shared-core interface used by this project.
-
-## 3. Initial architecture
-
-1. Input adapters — synthetic scenario observations only.
-2. Validation layer — schema, range, timestamp, provenance, and freshness checks.
-3. State estimator — transparent baseline state aggregation; uncertainty retained.
-4. Hazard reasoning — deterministic rules first, with traceable evidence.
-5. Safety supervisor — blocks unsafe or unsupported proposals.
-6. Rider information layer — warning severity, rationale, uncertainty, and recommended human action.
-7. Evaluation harness — scenario replay, metrics, regression, and evidence reports.
-
-All interfaces remain software-only. Any future hardware interface must be isolated behind an explicitly disabled adapter and a separate safety review.
-
-## 4. Safety and security engineering
-
-- Define operational design domain and assumptions before model development.
-- Analyze hazards including false negatives, false positives, distraction, stale data, sensor failure, power loss, overheating, water ingress, fire, battery faults, tampering, and software update failure.
-- Prefer fail-silent or conservative advisory behavior over confident output from poor evidence.
-- Never let a model output directly command an actuator.
-- Keep credentials out of source control; use least-privilege repository permissions.
-- Review dependencies and licenses before adoption.
-- Test malformed input, sensor disagreement, missing data, time drift, and interrupted processing.
-- Treat environmental resistance as a design requirement to validate physically, not a software claim or an assumed IP rating.
-
-## 5. Zero-cost development policy
-
-Allowed by default: Python standard library, Git, GitHub features that are available at no charge, local synthetic fixtures, and free documentation.
-
-Before adding any external tool, model, package, dataset, or hosted service, check:
-- license and commercial-use terms;
-- privacy and data provenance;
-- hardware/RAM/disk requirements;
-- whether a free tier can trigger billing;
-- whether a standard-library alternative is sufficient.
-
-Do not enable paid plans, paid runners, cloud compute, or metered APIs.
-
-## 6. Roadmap and exit criteria
-
+## Roadmap and exit criteria
 ### Phase 0 — foundation
-- [x] Establish repository scope and truth-in-claims policy.
-- [x] Document safety boundaries and initial architecture.
-- [ ] Align contracts with the canonical PUI89 AI Core.
+- [x] Define software-first scope and non-actuation boundary.
+- [x] Document preliminary hazards and safety constraints.
+- [x] Add synthetic rider-risk, traction, and road-surface scenarios.
+- [x] Add deterministic baseline and standard-library regression tests.
+- [ ] Align interface versions with canonical PUI89 AI Core.
 
-### Phase 1 — software contracts
-- [ ] Implement typed observation, world-state, proposal, and failure-report schemas.
-- [ ] Add deterministic validation and safety-gate tests.
-- [ ] Add explicit stale/missing/conflicting-data behavior.
+### Phase 1 — contract and evidence maturity
+- [ ] Add versioned Observation / WorldState / ActionProposal / FailureReport schemas or adapters.
+- [ ] Add explicit uncertainty, provenance, and sensor-conflict fixtures.
+- [ ] Generate machine-readable test reports and compare regression history.
 
-### Phase 2 — simulation and evaluation
-- [ ] Build synthetic motorcycle scenarios.
-- [ ] Add hazard scenarios and repeatable replay.
-- [ ] Report precision/recall where labels exist, false alarms, missed hazards, latency, and uncertainty behavior.
-- [ ] Add regression thresholds with documented rationale.
+### Phase 2 — richer simulation
+- [ ] Add synthetic time-series for lean, wheel slip, braking, visibility, and hazard approach.
+- [ ] Add fault injection: missing, delayed, frozen, noisy, contradictory, and spoofed observations.
+- [ ] Document assumptions; illustrative thresholds must never be treated as safe limits.
 
-### Phase 3 — research prototypes
-- [ ] Evaluate perception approaches only with legally usable, documented datasets.
-- [ ] Compare against deterministic baselines.
-- [ ] Document limitations and failure cases.
+### Phase 3 — research evaluation
+- [ ] Evaluate perception approaches only with legally usable, documented data.
+- [ ] Compare candidate models against deterministic baselines.
+- [ ] Report false positives, missed hazards, calibration, latency, and limitations.
 
 ### Phase 4 — independent engineering review
-- [ ] Qualified vehicle, electrical, battery, cybersecurity, and functional-safety review.
-- [ ] Legal and regulatory review for intended markets.
-- [ ] Controlled test plan and independent evidence before any hardware integration.
+- [ ] Qualified motorcycle-dynamics, vehicle, electrical, battery, cybersecurity, and functional-safety review.
+- [ ] Legal/regulatory review for intended markets.
+- [ ] Controlled test plan and independent evidence before hardware integration.
 
-## 7. Definition of done
-
-A feature is not complete merely because code runs. It needs requirements, tests, traceable evidence, known limitations, security review, and documented failure behavior. Hardware or road-safety claims require appropriate independent validation.
+## Definition of done
+Code execution alone is not completion. Each capability needs requirements, tests, traceable evidence, known limitations, security review, and documented failure behavior. Hardware or road-safety claims require independent validation.
