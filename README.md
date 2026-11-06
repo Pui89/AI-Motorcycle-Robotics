@@ -16,7 +16,8 @@ Develop a welcoming motorcycle concept that is easier to mount, comfortable to s
 ## EasyRide visual design
 
 - Rounded, friendly body panels with a compact, clean silhouette.
-- Low, open step-through space and a broad, low floorboard.
+- Low, open step-through space and a broad, non-slip floorboard designed to make mounting in skirts or dresses easier.
+- Smooth leg-area panels and a fully enclosed chain/belt design target to reduce clothing snag points; actual clothing clearance and safety require user testing.
 - Upright riding posture, supportive seat and relaxed handlebar reach.
 - Clear headlamp and simple high-contrast display.
 - Low-centre battery packaging as a design study, not a verified layout.
@@ -36,7 +37,9 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 
 ## Inclusive rider-first requirements
 
-- Make mounting and dismounting easier with a low, wide step-through opening.
+- Make mounting and dismounting easier with a low, wide step-through opening, including for riders wearing skirts or dresses.
+- Provide a broad, flat, non-slip footboard, smooth snag-resistant side covers and an enclosed chain/belt layout; test hem clearance and safe foot placement.
+- Do not claim all clothing is safe: loose or long fabric can still catch in wheels or moving parts, so protective riding gear and clothing guidance remain important.
 - Provide upright posture, supportive seating, relaxed reach and adjustable contact points.
 - Evaluate low-centre-of-gravity packaging without sacrificing strength or braking capability.
 - Design readable displays, tactile controls, clear lighting and adjustable advisory alerts.
