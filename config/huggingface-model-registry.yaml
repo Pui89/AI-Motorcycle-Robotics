@@ -1,0 +1,67 @@
+schema_version: 1
+project: "PUI89 AI Robot Motorcycle and related vehicle intelligence work"
+policy:
+  zero_cost_only: true
+  non_chinese_source_preference: true
+  automatic_downloads: false
+  hosted_inference: false
+  cloud_gpu: false
+  commit_model_weights: false
+  trust_remote_code: false
+  unrestricted_agent_execution: false
+  physical_actuation: false
+  human_review_required_for_safety_critical_decisions: true
+components:
+  - id: smolagents
+    kind: agent_framework
+    publisher: Hugging Face
+    source: https://github.com/huggingface/smolagents
+    status: candidate
+    licence_review: required
+    security_review: required
+  - id: florence-2-base
+    kind: vision_language_model
+    publisher: Microsoft
+    source: https://huggingface.co/microsoft/Florence-2-base
+    status: candidate
+    purpose: "Evaluate supported visual understanding tasks"
+    revision_pin: required
+    model_card_review: required
+    licence_review: required
+    code_review: required
+    hardware_fit_review: required
+    benchmark_required: true
+  - id: owlv2-base-patch16
+    kind: object_detection_model
+    publisher: Google
+    source: https://huggingface.co/google/owlv2-base-patch16
+    status: candidate
+    purpose: "Compare text-conditioned object proposals on labelled project data"
+    revision_pin: required
+    model_card_review: required
+    licence_review: required
+    code_review: required
+    hardware_fit_review: required
+    benchmark_required: true
+  - id: smolvla-base
+    kind: vision_language_action_model
+    publisher: Hugging Face LeRobot
+    source: https://huggingface.co/lerobot/smolvla_base
+    status: deferred
+    purpose: "Simulation-only VLA research; no physical vehicle control"
+    revision_pin: required
+    model_card_review: required
+    licence_review: required
+    simulator_safety_review: required
+    benchmark_required: true
+  - id: phi-4-mini-instruct
+    kind: language_model
+    publisher: Microsoft
+    source: https://huggingface.co/microsoft/Phi-4-mini-instruct
+    status: deferred
+    purpose: "Optional local reasoning evaluation after hardware fit assessment"
+    revision_pin: required
+    model_card_review: required
+    licence_review: required
+    hardware_fit_review: required
+    benchmark_required: true
