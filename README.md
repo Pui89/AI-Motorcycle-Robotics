@@ -1,5 +1,9 @@
 # PUI89 AI Robot Motorcycle — EasyRide Inclusive Concept
 
+## Project website QR codes
+
+<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
+
 <p align="center">
   <img src="docs/EASYRIDE_CONCEPT.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
 </p>
