@@ -31,7 +31,7 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 <table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
 <p align="center">
-  <img src="docs/EASYRIDE_CONCEPT.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
+  <img src="docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
 </p>
 
 **Design direction:** friendly, simple, softly rounded and approachable — with a low step-through frame, upright posture, supportive seat and easy-to-understand controls.
@@ -43,6 +43,12 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 
 Develop a welcoming motorcycle concept that is easier to mount, comfortable to sit on and manageable at low speed for a broad range of adult riders. AI assistance is limited to hazard awareness, road-condition context, vehicle-health monitoring and clear advisory support. The rider remains responsible for vehicle control. No autonomous riding or physical actuation is enabled.
 
+## EasyRide V3 visual design
+
+- **Seat:** black, long touring-style bench with supportive contour; final passenger ergonomics require user trials.
+- **Floor:** one continuous, broad, flat, non-slip platform through the central step-through area, with no middle cut-out or open gap. Structural integration and foot clearance require engineering validation.
+- The updated V3 concept replaces the earlier open-centre illustration and is used on both language versions of the project page and both PUI89 homepages.
+
 ## EasyRide visual design
 
 - Rounded, friendly body panels with a compact, clean silhouette.
@@ -53,7 +59,7 @@ Develop a welcoming motorcycle concept that is easier to mount, comfortable to s
 - Low-centre battery packaging as a design study, not a verified layout.
 - Calm Deep Navy, pearl white, soft cyan and mint accent palette.
 
-See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/EASYRIDE_CONCEPT.svg).
+See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg).
 
 ## PUI89 engineering rules
 
@@ -128,7 +134,7 @@ This repository is an initial software and research scaffold. It does not contai
 
 - `docs/PROJECT_PLAN.md` — scope, architecture and staged roadmap.
 - `docs/EASYRIDE_INCLUSIVE_DESIGN.md` — rider ergonomics, inclusive design, durability and validation requirements.
-- `docs/EASYRIDE_CONCEPT.svg` — original friendly EasyRide concept illustration; not production CAD.
+- `docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg` — original friendly EasyRide concept illustration; not production CAD.
 - `docs/SAFETY_CASE.md` — hazards, safeguards and validation boundaries.
 - `SECURITY.md` — vulnerability reporting and security policy.
 - `tests/` — software-only tests.

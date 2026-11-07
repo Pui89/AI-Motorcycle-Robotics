@@ -8,6 +8,8 @@
 Design for a broad range of adult riders, including women, older adults, shorter riders, new riders and people who prefer an easy-to-mount motorcycle. Do not assume all people have the same height, strength, balance, reach, vision or mobility.
 
 ## Proposed design features
+- **Continuous connected floor (V3 requirement):** one uninterrupted, broad, flat, non-slip platform through the centre, with no open middle gap or cut-out. Validate foot placement, ground clearance, structural integration and rider ergonomics; the SVG is not an engineering drawing.
+- **Black touring seat (V3 visual direction):** long black supportive bench with a gentle ergonomic contour. Confirm passenger positions, seat width, reach and comfort through mock-ups and user trials; do not infer legal capacity from the illustration.
 - **Low step-through frame:** wide, unobstructed entry with no high leg swing; rounded edges and protected pinch points.
 - **Skirt- and dress-conscious layout:** preserve a low, wide step-through opening so a rider can mount without a high leg swing; provide a broad, flat, non-slip footboard with clear foot placement; use smooth, snag-resistant side panels and a full chain/belt enclosure; shield hot or moving parts; avoid exposed hooks, sharp edges and protruding fasteners near clothing. Evaluate modesty, hem clearance and safe foot access while stationary and during mounting/dismounting. Never imply that every skirt length or garment is safe for riding.
 - **Clothing compatibility is not a substitute for riding gear:** advise secure clothing and appropriate protective equipment; loose hems, scarves and long fabric can still catch in moving parts or wheels.
