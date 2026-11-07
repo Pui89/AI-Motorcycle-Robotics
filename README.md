@@ -63,7 +63,7 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 
 ## PUI89 engineering rules
 
-- **Strict local-first:** no paid APIs, subscriptions, cloud GPU, paid datasets or metered services.
+- **Local-first:** external services and datasets require prior technical, licensing and security review.
 - **Simulation first:** no commands to physical vehicles, motors, brakes, steering or batteries.
 - **Safety before features:** fail-safe behavior, human override, uncertainty reporting and hazard analysis are mandatory.
 - **Evidence before claims:** distinguish implemented, simulated, proposed and independently validated capabilities.
