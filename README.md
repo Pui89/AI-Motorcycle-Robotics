@@ -63,7 +63,7 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 
 ## PUI89 engineering rules
 
-- **Strict zero-cost:** no paid APIs, subscriptions, cloud GPU, paid datasets or metered services.
+- **Local-first:** external services and datasets require prior technical, licensing and security review.
 - **Simulation first:** no commands to physical vehicles, motors, brakes, steering or batteries.
 - **Safety before features:** fail-safe behavior, human override, uncertainty reporting and hazard analysis are mandatory.
 - **Evidence before claims:** distinguish implemented, simulated, proposed and independently validated capabilities.
@@ -159,7 +159,7 @@ This repository now includes real Hugging Face checkpoint adapters in [`pui89_mo
 
 - **OWLv2:** `google/owlv2-base-patch16-ensemble` for text-conditioned object proposals.
 - **Intel DPT-Hybrid:** `Intel/dpt-hybrid-midas` for relative scene depth where appropriate; not calibrated distance or physical depth.
-- **Zero-cost default:** no packages or model weights are installed/downloaded automatically; CPU-only inference, local cache only by default, no hosted inference API or cloud GPU.
+- **local-first default:** no packages or model weights are installed/downloaded automatically; CPU-only inference, local cache only by default, no hosted inference API or cloud GPU.
 - **Evidence status:** adapter code is added; model inference and project-specific accuracy are NOT YET TESTED. Outputs remain uncertain observations for human review, never actuator commands.
 
 
@@ -169,4 +169,4 @@ This project follows the shared [PUI89 Efficient Engineering Standard](https://g
 
 **Project focus:** Prioritise low-power monitoring, advisory latency, resource-bounded perception, battery/thermal health and fail-safe degradation. Do not optimise by weakening rider alerts, deterministic safety gates or human control.
 
-Track relevant RAM, CPU/GPU, latency, storage and network measurements using documented workloads and comparable environments. Record power (W/Wh), battery runtime and temperature only when suitable physical instruments and hardware are available. No paid APIs, subscriptions, cloud GPU, metered services, purchases or model downloads are authorised. Efficiency changes must preserve accuracy, safety, evidence integrity, privacy and security. Unmeasured physical performance must be labelled **not measured**.
+Track relevant RAM, CPU/GPU, latency, storage and network measurements using documented workloads and comparable environments. Record power (W/Wh), battery runtime and temperature only when suitable physical instruments and hardware are available. External services, datasets and model downloads require explicit review before adoption. Efficiency changes must preserve accuracy, safety, evidence integrity, privacy and security. Unmeasured physical performance must be labelled **not measured**.
