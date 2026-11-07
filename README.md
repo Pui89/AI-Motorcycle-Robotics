@@ -1,5 +1,24 @@
 # PUI89 AI Robot Motorcycle — EasyRide Inclusive Concept
 
+
+## PUI89 — Intelligent Systems. Verifiable Decisions. Safer Outcomes.
+
+PUI89 develops intelligent software and next-generation robotic systems for practical challenges across agriculture, emergency response, multimodal inspection, home environments and mobility. Our engineering approach integrates perception, contextual reasoning, decision intelligence, safety engineering and evidence-led validation.
+
+### Engineering capabilities
+
+- **Perception and sensing:** visual, spatial and multimodal information processing.
+- **Context and reasoning:** world-state representation, uncertainty handling and evidence alignment.
+- **Decision intelligence:** structured recommendations, action proposals and human approval boundaries.
+- **Safety engineering:** risk-aware operating limits, safe-state logic and failure reporting.
+- **Verification and assurance:** reproducible tests, benchmark records, provenance and traceable engineering evidence.
+
+### Technology governance
+
+PUI89 selects and integrates technologies according to capability, provenance, security, licence obligations, maintainability, interoperability and operational suitability. Product claims are grounded in documented implementation and validation rather than a list of underlying components. Required third-party notices and attributions remain in the appropriate technical and legal records.
+
+**Development principle:** distinguish implemented capabilities, tested software behaviour, simulation results, proposed designs and independently validated real-world performance. A concept or passing software test is not represented as a commercially validated physical product.
+
 ## Commercial readiness progress
 
 **28% — evidence-based commercial-readiness estimate**  
