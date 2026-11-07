@@ -19,6 +19,16 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 **Development principle:** distinguish implemented capabilities, tested software behaviour, simulation results, proposed designs and independently validated real-world performance. A concept or passing software test is not represented as a commercially validated physical product.
 
+> **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
+> 
+> **Project:** PUI89 AI Robot Motorcycle — EasyRide  
+> **Focus:** Human-centred AI motorcycle and inclusive mobility research concept  
+> **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
+> 
+> **Project website:** [English](https://pui89.github.io/ai-robot-motorcycle.html) · [ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html) · [PUI89 portfolio](https://pui89.github.io/)
+> 
+> **Validation boundary:** AI assistance remains advisory; no autonomous riding, physical actuation, roadworthiness or rider-safety validation is claimed.
+
 ## Commercial readiness progress
 
 **28% — evidence-based commercial-readiness estimate**  
