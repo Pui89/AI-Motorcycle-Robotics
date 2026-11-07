@@ -63,7 +63,7 @@ See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept
 
 ## PUI89 engineering rules
 
-- **Strict zero-cost:** no paid APIs, subscriptions, cloud GPU, paid datasets or metered services.
+- **Strict local-first:** no paid APIs, subscriptions, cloud GPU, paid datasets or metered services.
 - **Simulation first:** no commands to physical vehicles, motors, brakes, steering or batteries.
 - **Safety before features:** fail-safe behavior, human override, uncertainty reporting and hazard analysis are mandatory.
 - **Evidence before claims:** distinguish implemented, simulated, proposed and independently validated capabilities.
@@ -159,7 +159,7 @@ This repository now includes real Hugging Face checkpoint adapters in [`pui89_mo
 
 - **OWLv2:** `google/owlv2-base-patch16-ensemble` for text-conditioned object proposals.
 - **Intel DPT-Hybrid:** `Intel/dpt-hybrid-midas` for relative scene depth where appropriate; not calibrated distance or physical depth.
-- **Zero-cost default:** no packages or model weights are installed/downloaded automatically; CPU-only inference, local cache only by default, no hosted inference API or cloud GPU.
+- **local-first default:** no packages or model weights are installed/downloaded automatically; CPU-only inference, local cache only by default, no hosted inference API or cloud GPU.
 - **Evidence status:** adapter code is added; model inference and project-specific accuracy are NOT YET TESTED. Outputs remain uncertain observations for human review, never actuator commands.
 
 
