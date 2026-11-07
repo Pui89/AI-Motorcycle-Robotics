@@ -244,7 +244,7 @@ Project-specific controls and review requirements:
 - This repository has no physical motorcycle or actuator authority; AI output is advisory only and must never control steering, throttle, braking or vehicle systems.
 - Keep CI least-privilege and do not expose secrets to untrusted pull-request code.
 
-A scan or passing test is evidence only for the checks actually run; it does not prove the repository is free of malware or vulnerabilities.
+A scan or passing test is evidence only for the checks actually run; it does not prove the repository is absence of malware or vulnerabilities.
 
 ## PUI89 seven-dimension quality recommendations
 
