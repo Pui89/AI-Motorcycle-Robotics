@@ -4,6 +4,24 @@
 
 <table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
+## PUI89 product maturity snapshot — 7 November 2026
+
+**Strategic direction: From AI Projects to AI Products.**  
+**Current maturity: Grade 1–2 — Product Concept and Early Engineering Foundation.** EasyRide defines an inclusive, step-through two-wheel motorcycle direction and an initial software/research scaffold. It is not a functioning, tested or road-certified motorcycle.
+
+| Area | Verified position |
+|---|---|
+| Product definition | Rider-first two-wheel concept with easy step-through access, upright posture, supportive seating and practical everyday usability. |
+| Inclusive requirements | Low/open step-through, broad non-slip footboard, snag-risk reduction, readable controls and diverse adult-rider fit are design requirements requiring user testing. |
+| Software and AI | Software-first and simulation-first research scaffold; opt-in model-adapter code is documented, but model inference and motorcycle-specific accuracy are not yet tested. |
+| Physical product | No built motorcycle, validated braking/stability, load capacity, battery layout, weather protection or road certification is established. |
+
+**Next product gate:** translate rider needs into measurable ergonomic and safety requirements; assess entry/exit, clothing snag hazards, centre of gravity, structural loads, braking, stability, battery/thermal protection, serviceability and regulatory constraints. Create deterministic software/simulation scenarios before considering physical integration.
+
+**Product discipline:** the rider retains control; no autonomous riding or physical actuation is enabled. Water resistance, fire performance, durability and road safety are requirements for qualified engineering and testing, not existing capabilities. No paid API, cloud GPU, automatic model download or physical vehicle actuation is part of this update.
+
+
+
 <p align="center">
   <img src="docs/EASYRIDE_CONCEPT.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
 </p>
