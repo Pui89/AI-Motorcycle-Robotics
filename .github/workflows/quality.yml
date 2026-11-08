@@ -1,19 +1,30 @@
-name: Quality checks
-
+name: PUI89 Motorcycle Quality and Shared Core Contract Checks
 on:
   pull_request:
+  push:
+    branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: read
-
+concurrency:
+  group: motorcycle-quality-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   basic-checks:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Check out source
+      - name: Check out Motorcycle project
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check out pinned Shared AI Core schemas
+        uses: actions/checkout@v4
+        with:
+          repository: Pui89/PUI89-Shared-AI-Core
+          ref: e762f38f1e34ddf2ce9e22e12605bc08aa493ff9
+          path: shared-ai-core
+          persist-credentials: false
       - name: Check required project files
         run: |
           test -s README.md
@@ -25,9 +36,10 @@ jobs:
           test -s tests/test_motorcycle_risk_scenarios.py
       - name: Validate scenario JSON
         run: python -m json.tool docs/simulation/MOTORCYCLE_RISK_SCENARIOS.json > /dev/null
-      - name: Run dependency-free regression tests
+      - name: Run dependency-free regression and contract tests
         env:
           PYTHONPATH: src
+          PUI89_SHARED_CORE_DIR: shared-ai-core
         run: python -m unittest discover -s tests -v
       - name: Check whitespace errors
         run: git diff --check
