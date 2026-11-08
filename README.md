@@ -270,3 +270,30 @@ This project uses the shared PUI89 quality framework. The indicators are guidanc
 **Project-specific priority:** Preserve the two-wheel, human-rider-first and step-through accessibility concept. Prioritise low-speed stability, frame fatigue, braking, suspension, rider ergonomics, load limits, battery safety and manual control; do not imply self-balancing or road approval without tests.
 
 **Status legend:** 🔵 framework guidance added · 🟢 engineering quality target · 🟠 evidence or validation still required · ⚪ not assessed. These labels describe the review state of recommendations, not overall project maturity. Project maturity changes only when supported by verified repository evidence, reproducible tests or controlled validation.
+
+
+<!-- PUI89_PROJECT_STRENGTH_SCORECARD:START -->
+## PUI89 Project Strength Scorecard | เกณฑ์ประเมินความแข็งแกร่งของโครงการ
+
+**Current review status: Not yet scored · Completed evidence-backed strength reviews: 0.** This is a recordkeeping status, not a claim that no development or testing exists.
+
+**สถานะการประเมิน: ยังไม่มีคะแนน · รายงานประเมินที่เสร็จสมบูรณ์และมีหลักฐาน: 0 รายการ** ตัวเลขนี้หมายถึงจำนวนรายงานที่บันทึกครบตามเกณฑ์ ไม่ได้หมายความว่าไม่มีการพัฒนาหรือทดสอบ
+
+| Dimension / ด้านประเมิน | Weight / น้ำหนัก |
+|---|---:|
+| Technical capability / ความสามารถทางเทคนิค | 25 |
+| Testing and evidence / การทดสอบและหลักฐาน | 25 |
+| Safety and reliability / ความปลอดภัยและความน่าเชื่อถือ | 20 |
+| Engineering maturity / วุฒิภาวะทางวิศวกรรม | 15 |
+| Documentation and reproducibility / เอกสารและการทำซ้ำผล | 10 |
+| Real-world validation / การตรวจสอบในโลกจริง | 5 |
+| **Total / รวม** | **100** |
+
+Scores are awarded only through a dated review with a defined scope, version/commit, evidence links, findings, limitations and next actions. Concepts, planned features, concept images, unrun tests and tool inventories do not earn implementation or test credit. Simulation results do not prove physical-world performance.
+
+จะให้คะแนนเมื่อมีรายงานที่ระบุวันที่ ขอบเขต เวอร์ชัน/commit ลิงก์หลักฐาน ข้อค้นพบ ข้อจำกัด และขั้นตอนถัดไปเท่านั้น แนวคิด ฟีเจอร์ที่วางแผน ภาพแนวคิด การทดสอบที่ยังไม่ได้รัน และรายการเครื่องมือ จะไม่ได้คะแนนว่าเป็นการพัฒนาหรือการทดสอบที่เสร็จแล้ว ผลจำลองไม่ใช่หลักฐานยืนยันประสิทธิภาพในโลกจริง
+
+**Scoring method / รายละเอียดเกณฑ์:** [English](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PROJECT_STRENGTH_SCORECARD.md) · [ภาษาไทย](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PROJECT_STRENGTH_SCORECARD_TH.md)
+
+This score is separate from any commercial-readiness estimate and is not certification, safety approval or an investment rating.
+<!-- PUI89_PROJECT_STRENGTH_SCORECARD:END -->
