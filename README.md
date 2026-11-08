@@ -310,3 +310,26 @@ Scores are awarded only through a dated review with a defined scope, version/com
 
 This score is separate from any commercial-readiness estimate and is not certification, safety approval or an investment rating.
 <!-- PUI89_PROJECT_STRENGTH_SCORECARD:END -->
+
+## Materials & Hardware — Research Plan
+
+**Status: rider-assistance software concept and motorcycle hardware research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
+
+| Subsystem | Candidate materials / hardware | Purpose and checks before selection |
+|---|---|---|
+| Base vehicle/frame | Existing two-wheel step-through motorcycle platform; engineered steel or aluminium components | Verify frame integrity, load rating, geometry, fatigue, legal type approval and qualified engineering |
+| Body/step-through | Impact-resistant polymer panels, aluminium brackets, non-slip footboard and corrosion-resistant fasteners | Verify strength, snag points, heat, ground clearance and ingress |
+| Seat/rider interface | Motorcycle-grade seat foam/cover and adjustable handlebar/contact-point hardware | Verify ergonomics, reach, passenger loading, durability and rider trials |
+| Powertrain monitoring | Battery voltage/current/temperature sensing and compatible non-invasive diagnostic interfaces | Verify electrical compatibility, isolation, accuracy and no interference with OEM safety systems |
+| Road perception | Forward/rear RGB cameras, optional radar/depth sensor and protected mounts | Verify weather, vibration, field of view, calibration, distraction and privacy |
+| Weather context | Ambient temperature, rain/wetness and visibility-related observations | Verify sensor limits, false alarms and safe advisory wording |
+| Motion/location | IMU, GNSS and lawful/compatible vehicle-speed input | Verify calibration, drift, interface safety and stale-data handling |
+| Rider interface | Glance-limited display, audible/haptic alerts and acknowledgement controls | Verify distraction, accessibility, fail-silent behaviour and rider override |
+| Power/enclosure | Fused low-voltage supply, protected DC-DC converter, sealed connectors and vibration-resistant enclosure | Verify transients, heat, water ingress, vibration, EMC and isolation |
+| Safety/maintenance | Independent fuse/isolation, cable protection, service labels and manual disconnect | Verify qualified installation and no interference with braking/steering/throttle |
+
+Investigate the two-wheel low step-through layout, continuous non-slip footboard, enclosed chain/belt, storage and comfortable two-person seating as engineering requirements—not confirmed specifications. Payload must include occupants and cargo and be validated against the base vehicle, tyres, suspension, frame and brakes.
+
+AI may provide advisory hazard and vehicle-health warnings with confidence, provenance and data-freshness indicators. It must not command steering, throttle, braking, acceleration or other vehicle actuation. Water, dust, heat, vibration and fire resistance are requirements to test, not ratings to claim without evidence.
+
+**Procurement rule:** research only. No purchases, subscriptions, supplier contact or paid services without explicit approval. Verify compatibility, datasheets, installation method, electrical limits, legal requirements, price, shipping and warranty before selection.
