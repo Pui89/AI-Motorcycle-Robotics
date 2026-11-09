@@ -1,4 +1,4 @@
-# PUI89 AI Robot Motorcycle — EasyRide Inclusive Concept
+# PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
 
 ## Open-source-first engineering
 
@@ -28,7 +28,7 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 > **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
 > 
-> **Project:** PUI89 AI Robot Motorcycle — EasyRide  
+> **Project:** PUI89 AI Step-Through Scooter — EasyRide  
 > **Focus:** Human-centred AI motorcycle and inclusive mobility research concept  
 > **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
 > 
@@ -64,7 +64,7 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 
 ## Project website QR codes
 
-<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
+<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Step-Through Scooter English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Step-Through Scooter"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
 <p align="center">
   <img src="docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
@@ -76,7 +76,7 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 **Status:** Early-stage concept and engineering foundation — not a built, tested, or road-certified vehicle.
 
 
-## Updated product direction — PUI89 AI Robot Scooter Motorcycle
+## Updated product direction — PUI89 AI Step-Through Scooter
 
 **Product identity:** a premium, two-wheel, step-through AI scooter motorcycle. This is a proposed design specification, not a built or validated vehicle.
 
