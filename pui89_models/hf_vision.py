@@ -29,7 +29,7 @@ def load_owlv2():
         OWLV2_MODEL_ID, local_files_only=True
     )
     model = AutoModelForZeroShotObjectDetection.from_pretrained(
-        OWLV2_MODEL_ID, local_files_only=local_only
+        OWLV2_MODEL_ID, local_files_only=True
     )
     model.eval()
     return processor, model
@@ -82,7 +82,6 @@ def load_dpt_hybrid():
             "package licences and disk space."
         ) from exc
 
-    local_only = _local_only(allow_download)
     processor = AutoImageProcessor.from_pretrained(
         DEPTH_MODEL_ID, local_files_only=True
     )
