@@ -86,7 +86,7 @@ def load_dpt_hybrid():
         DEPTH_MODEL_ID, local_files_only=True
     )
     model = AutoModelForDepthEstimation.from_pretrained(
-        DEPTH_MODEL_ID, local_files_only=local_only
+        DEPTH_MODEL_ID, local_files_only=True
     )
     model.eval()
     return processor, model
