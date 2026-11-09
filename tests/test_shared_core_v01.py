@@ -3,6 +3,8 @@ import os
 import unittest
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+
 from pui89_motorcycle.risk_baseline import classify_scenario
 from pui89_motorcycle.shared_core_v01 import build_motorcycle_v01_records
 
@@ -46,10 +48,7 @@ class MotorcycleSharedCoreV01Tests(unittest.TestCase):
                                          observed_at="2026-11-01T00:00:00Z")
 
     def test_shared_core_schema_required_fields_match(self):
-        core_dir = os.environ.get("PUI89_SHARED_CORE_DIR")
-        if not core_dir:
-            self.skipTest("Shared AI Core checkout is supplied by GitHub Actions")
-        schema_dir = Path(core_dir) / "schemas" / "v0.1"
+        schema_dir = ROOT / "schemas" / "v0.1"
         bundle = self.make_bundle()
         for key, filename in (
             ("observation","observation.schema.json"),
