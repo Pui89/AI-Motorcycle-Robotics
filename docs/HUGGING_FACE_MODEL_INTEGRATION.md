@@ -1,27 +1,27 @@
 # Hugging Face vision-model integration
 
-**Status: optional model adapters added; model weights are not downloaded and inference is not yet benchmarked in this repository.**
+**Status: prototype integration only. Model candidates are unverified, weights are not downloaded, and inference is not benchmarked. Not approved for vehicle use.**
 
 This project now has an opt-in local adapter at [`pui89_models/hf_vision.py`](../pui89_models/hf_vision.py). It connects to real Hugging Face model checkpoints rather than placeholder model names.
 
-## Approved model checkpoints
+## Unverified model candidates — not approved for download or vehicle use
 
 | Checkpoint | Task | Licence shown on model card | Use in this project |
 |---|---|---|---|
 | [google/owlv2-base-patch16-ensemble](https://huggingface.co/google/owlv2-base-patch16-ensemble) | Text-conditioned, open-vocabulary object detection | Apache-2.0 | Candidate object localization for the project-specific research scope. |
 | [Intel/dpt-hybrid-midas](https://huggingface.co/Intel/dpt-hybrid-midas) | Monocular relative-depth estimation | Apache-2.0 | Optional relative scene geometry only. |
 
-Model-card licences are checkpoint-level information, not a blanket clearance for datasets, dependencies, downstream uses or every project jurisdiction. Recheck the model card, terms, provenance and security before release.
+Model-card licence labels are preliminary evidence only, not legal clearance for datasets, dependencies, upstream code, downstream uses or every project jurisdiction. Author, upstream/base-model lineage, dataset provenance and contributor provenance have not yet been independently cleared against PUI89's non-Chinese-origin preference. Keep both candidates on HOLD until that review is complete.
 
-## Run locally — opt-in only
+## Offline integration boundary — local cache only
 
 The adapter imports without importing or downloading ML packages. It requires compatible local installations of PyTorch, Transformers and Pillow (and NumPy for the depth-map output). No package installation is performed by this repository.
 
 1. Run the project's standard-library verification first.
-2. Install dependencies only after checking the current Python version, RAM, disk space, package licences and compatibility. CPU inference is the default.
-3. Download model weights only after an explicit decision. By default, the loader uses the existing Hugging Face cache only.
-4. To permit a direct Hugging Face Hub download, explicitly set `PUI89_ALLOW_MODEL_DOWNLOAD=1` in the current shell, or pass `allow_download=True` to a loader. This downloads weights to the local cache; it does not use hosted inference or a cloud GPU.
-5. Keep model weights out of Git unless there is a separately approved reason.
+2. Do not install packages as part of this prototype. First verify Python compatibility, RAM, disk space, package licences and dependency provenance.
+3. The adapter is hard-locked to `local_files_only=True`; it can only use files already present in the local Hugging Face cache. There is no environment-variable or function-argument download override.
+4. Any future download requires a separate user-approved change and a fresh model, licence, provenance, security and resource review.
+5. Keep model weights out of Git.
 
 Example:
 
@@ -38,7 +38,7 @@ proposals = detect_objects(
 print(proposals)
 ```
 
-The first run fails clearly if the model is not already cached. It will not silently download anything. The detector returns candidate boxes and scores; thresholds must be calibrated on a lawful, representative, independently labelled evaluation set.
+The call fails clearly if the model is not already cached. It cannot silently download anything. The detector returns candidate boxes and scores; thresholds must be calibrated on a lawful, representative, independently labelled evaluation set.
 
 ## Project-specific boundaries
 
@@ -53,3 +53,8 @@ The first run fails clearly if the model is not already cached. It will not sile
 - Preserve source, timestamp, image quality, model ID/revision, prompt, threshold, raw output, uncertainty and human-review outcome in the project's evidence records.
 - Unknown, conflicting, low-quality or out-of-distribution results must remain unknown and go to human review.
 - No real-world accuracy, safety, certification or product capability is claimed by adding this adapter.
+
+
+## Shared AI Core integration status
+
+The current adapter outputs remain model-proposal data. They must not be treated as trusted observations or safety decisions. The next integration change must map each proposal into the exact, versioned Shared AI Core Observation contract after reading that schema; preserve model ID and immutable revision, source image provenance, capture time, prompt, threshold, raw scores/boxes, quality flags and review state. Do not invent contract fields or silently convert model confidence into calibrated probability. Until that mapping and its contract tests exist, this is an adapter hardening step, not a completed Shared AI Core integration.
