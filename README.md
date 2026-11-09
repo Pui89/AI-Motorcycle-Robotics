@@ -1,4 +1,4 @@
-# PUI89 AI Robot Motorcycle — EasyRide Inclusive Concept
+# PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
 
 ## Open-source-first engineering
 
@@ -28,7 +28,7 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 > **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
 > 
-> **Project:** PUI89 AI Robot Motorcycle — EasyRide  
+> **Project:** PUI89 AI Step-Through Scooter — EasyRide  
 > **Focus:** Human-centred AI motorcycle and inclusive mobility research concept  
 > **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
 > 
@@ -64,7 +64,7 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 
 ## Project website QR codes
 
-<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
+<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Step-Through Scooter English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Step-Through Scooter"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
 <p align="center">
   <img src="docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
@@ -74,6 +74,47 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 
 **Project type:** AI-enabled motorcycle research concept; software-first and simulation-first.  
 **Status:** Early-stage concept and engineering foundation — not a built, tested, or road-certified vehicle.
+
+
+## Updated product direction — PUI89 AI Step-Through Scooter
+
+**Product identity:** a premium, two-wheel, step-through AI scooter motorcycle. This is a proposed design specification, not a built or validated vehicle.
+
+### Physical design and load targets
+- Two wheels only; low step-through frame and a wide, continuous, flat anti-slip footboard.
+- Long supportive two-person seat, upright posture, relaxed adjustable handlebar reach and easy mounting/dismounting for a broad range of adult riders.
+- Smooth side covers, fully enclosed chain or belt drive, protected moving parts, premium Deep Navy + Electric Cyan finish.
+- **190 kg proposed total payload**, including rider, passenger and cargo. This is an unvalidated target pending structural, tyre, suspension, braking, wheel-load and stability tests.
+- Large lockable under-seat storage target; final volume, helmet fit, heat separation and sealing remain to be engineered.
+- Everyday road performance target comparable to mainstream petrol scooters. A provisional **90–110 km/h design-study range** is for engineering evaluation only, not a verified top speed or public-road claim.
+- All-weather commuter design intent, taking inspiration from the practical simplicity and everyday durability associated with older Honda Wave-style step-through scooters. This is a design reference only, not a claim of equivalent water resistance or performance.
+- Water-resilience requirements: protected air intake and exhaust routing, sealed electrical connectors, elevated/protected control electronics, drainage paths that avoid trapping water, corrosion-resistant fasteners and coatings, splash shields, and serviceable water-sensitive components.
+- Design for heavy rain, road spray, wet roads and limited splash exposure after validation. Do not design or market the scooter as flood-proof, submersible, or safe to ride through floodwater.
+
+### Eight AI assistance capabilities
+1. Road perception: potholes, debris, obstacles, animals, road damage and surface changes.
+2. Flood intelligence: estimate water depth only with suitable calibrated sensors; combine reports and maps to flag dangerous routes. Never recommend riding into floodwater.
+3. Weather and road context: rain, visibility, wind, temperature and surface observations.
+4. Collision-risk and blind-spot warnings.
+5. Battery, electrical and abnormal-temperature monitoring.
+6. Predictive maintenance using supported vibration, tyre-pressure and component-health measurements.
+7. Emergency assistance: suspected crash detection, rider-confirmed SOS and location sharing.
+8. Navigation and road memory with timestamps, source provenance, uncertainty and safer-route suggestions.
+
+### Shared PUI89 AI Core
+Reuse the PUI89 AI Core with PUI89 AI Car: Observation, WorldState, ActionProposal and FailureReport contracts; sensor-freshness checks; uncertainty and conflict handling; risk analysis; evidence provenance; evaluation records; and safety gates. Vehicle-specific safety limits remain separate. AI outputs are advisory and must not issue throttle, steering, braking or other physical-control commands.
+
+### Water, fire and rider safety
+- Use a defined water-ingress test plan for connectors, sensors, display, controller, battery enclosure and assembled vehicle; select and verify ingress-protection ratings with qualified testing. No IP rating is assigned until tested.
+- Protect the air intake, electrical connectors, controller and battery enclosure from rain and road spray; include drainage, corrosion protection and inspection points.
+- Honda Wave-style everyday practicality is an inspiration for serviceability and wet-weather usability only. It is not evidence that this concept can cross floodwater.
+- Water resistance does not mean safe flood crossing, deep-water operation or submersion. Riders must stop and avoid flooded roads.
+- Investigate battery chemistry, fusing, contactors, thermal monitoring, propagation barriers, venting and emergency isolation. Never describe the vehicle as fireproof.
+- Investigate ABS, traction control, lighting, load distribution, braking at maximum payload and passenger footrests; these are requirements, not established features.
+- Missing, stale or conflicting sensor inputs must reduce confidence; critical vehicle controls remain independent of AI.
+
+### Status and validation boundary
+Early-stage concept and software/research foundation only. No functioning scooter, validated 190 kg payload, verified top speed, flood-crossing capability, fire-resistance rating, rider trial or road certification is established. Software tests and simulation cannot prove physical vehicle safety. No paid APIs, subscriptions, cloud GPUs, automatic model downloads or physical vehicle commands are required or authorized by this specification.
 
 ## Mission
 
