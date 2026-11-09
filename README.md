@@ -75,6 +75,42 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 **Project type:** AI-enabled motorcycle research concept; software-first and simulation-first.  
 **Status:** Early-stage concept and engineering foundation — not a built, tested, or road-certified vehicle.
 
+
+## Updated product direction — PUI89 AI Robot Scooter Motorcycle
+
+**Product identity:** a premium, two-wheel, step-through AI scooter motorcycle. This is a proposed design specification, not a built or validated vehicle.
+
+### Physical design and load targets
+- Two wheels only; low step-through frame and a wide, continuous, flat anti-slip footboard.
+- Long supportive two-person seat, upright posture, relaxed adjustable handlebar reach and easy mounting/dismounting for a broad range of adult riders.
+- Smooth side covers, fully enclosed chain or belt drive, protected moving parts, premium Deep Navy + Electric Cyan finish.
+- **190 kg proposed total payload**, including rider, passenger and cargo. This is an unvalidated target pending structural, tyre, suspension, braking, wheel-load and stability tests.
+- Large lockable under-seat storage target; final volume, helmet fit, heat separation and sealing remain to be engineered.
+- Everyday road performance target comparable to mainstream petrol scooters. A provisional **90–110 km/h design-study range** is for engineering evaluation only, not a verified top speed or public-road claim.
+- All-weather design intent for rain, heat, humidity, dust and cold-weather markets. No flood-proof or all-climate certification is claimed.
+
+### Eight AI assistance capabilities
+1. Road perception: potholes, debris, obstacles, animals, road damage and surface changes.
+2. Flood intelligence: estimate water depth only with suitable calibrated sensors; combine reports and maps to flag dangerous routes. Never recommend riding into floodwater.
+3. Weather and road context: rain, visibility, wind, temperature and surface observations.
+4. Collision-risk and blind-spot warnings.
+5. Battery, electrical and abnormal-temperature monitoring.
+6. Predictive maintenance using supported vibration, tyre-pressure and component-health measurements.
+7. Emergency assistance: suspected crash detection, rider-confirmed SOS and location sharing.
+8. Navigation and road memory with timestamps, source provenance, uncertainty and safer-route suggestions.
+
+### Shared PUI89 AI Core
+Reuse the PUI89 AI Core with PUI89 AI Car: Observation, WorldState, ActionProposal and FailureReport contracts; sensor-freshness checks; uncertainty and conflict handling; risk analysis; evidence provenance; evaluation records; and safety gates. Vehicle-specific safety limits remain separate. AI outputs are advisory and must not issue throttle, steering, braking or other physical-control commands.
+
+### Water, fire and rider safety
+- Test sealed electronics and suitable ingress-protection ratings at component and assembled-vehicle level. Water resistance does not mean safe flood crossing or submersion.
+- Investigate battery chemistry, fusing, contactors, thermal monitoring, propagation barriers, venting and emergency isolation. Never describe the vehicle as fireproof.
+- Investigate ABS, traction control, lighting, load distribution, braking at maximum payload and passenger footrests; these are requirements, not established features.
+- Missing, stale or conflicting sensor inputs must reduce confidence; critical vehicle controls remain independent of AI.
+
+### Status and validation boundary
+Early-stage concept and software/research foundation only. No functioning scooter, validated 190 kg payload, verified top speed, flood-crossing capability, fire-resistance rating, rider trial or road certification is established. Software tests and simulation cannot prove physical vehicle safety. No paid APIs, subscriptions, cloud GPUs, automatic model downloads or physical vehicle commands are required or authorized by this specification.
+
 ## Mission
 
 Develop a welcoming motorcycle concept that is easier to mount, comfortable to sit on and manageable at low speed for a broad range of adult riders. AI assistance is limited to hazard awareness, road-condition context, vehicle-health monitoring and clear advisory support. The rider remains responsible for vehicle control. No autonomous riding or physical actuation is enabled.
