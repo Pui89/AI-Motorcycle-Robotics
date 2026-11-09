@@ -1,4 +1,4 @@
-# PUI89 AI Robot Motorcycle — EasyRide Inclusive Concept
+# PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
 
 ## Open-source-first engineering
 
@@ -28,8 +28,8 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 > **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
 > 
-> **Project:** PUI89 AI Robot Motorcycle — EasyRide  
-> **Focus:** Human-centred AI motorcycle and inclusive mobility research concept  
+> **Project:** PUI89 AI Step-Through Scooter — EasyRide  
+> **Focus:** Human-centred AI step-through scooter and inclusive mobility research concept  
 > **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
 > 
 > **Project website:** [English](https://pui89.github.io/ai-robot-motorcycle.html) · [ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html) · [PUI89 portfolio](https://pui89.github.io/)
@@ -64,11 +64,13 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 
 ## Project website QR codes
 
-<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Robot Motorcycle English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Robot Motorcycle"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
+<table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Step-Through Scooter English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Step-Through Scooter"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
 <p align="center">
-  <img src="docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg" alt="PUI89 EasyRide friendly rounded step-through AI motorcycle concept" width="100%">
+  <img src="docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg" alt="PUI89 AI Step-Through Scooter concept in Deep Navy and Electric Cyan, with two wheels, a long black seat, continuous step-through floorboard and advisory AI sensors" width="100%">
 </p>
+
+**Updated concept direction:** premium two-wheel step-through scooter with an upright rider position, long supportive seat, continuous non-slip floorboard, enclosed bodywork and rider-facing AI alerts. Flood-depth awareness is an advisory research feature only; **20 cm is a future engineering test target, not an approved or safe water-crossing capability.**
 
 **Design direction:** friendly, simple, softly rounded and approachable — with a low step-through frame, upright posture, supportive seat and easy-to-understand controls.
 
@@ -170,7 +172,7 @@ This repository is an initial software and research scaffold. It does not contai
 
 - `docs/PROJECT_PLAN.md` — scope, architecture and staged roadmap.
 - `docs/EASYRIDE_INCLUSIVE_DESIGN.md` — rider ergonomics, inclusive design, durability and validation requirements.
-- `docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg` — original friendly EasyRide concept illustration; not production CAD.
+- `docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg` — premium Deep Navy + Electric Cyan AI step-through scooter concept illustration; not production CAD.
 - `docs/SAFETY_CASE.md` — hazards, safeguards and validation boundaries.
 - `SECURITY.md` — vulnerability reporting and security policy.
 - `tests/` — software-only tests.
@@ -178,8 +180,8 @@ This repository is an initial software and research scaffold. It does not contai
 
 ## PUI89 portfolio links
 
-- **English project page:** [PUI89 EasyRide AI Motorcycle](https://pui89.github.io/ai-robot-motorcycle.html)
-- **Thai project page:** [PUI89 EasyRide AI Motorcycle — ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html)
+- **English project page:** [PUI89 AI Step-Through Scooter](https://pui89.github.io/ai-robot-motorcycle.html)
+- **Thai project page:** [PUI89 AI Step-Through Scooter — ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html)
 - **PUI89 main portfolio:** [https://pui89.github.io/](https://pui89.github.io/)
 - **Website source repository:** [Pui89/Pui89.github.io](https://github.com/Pui89/Pui89.github.io)
 - **Car companion project:** [PUI89 AI Robot Car](https://github.com/Pui89/ai-robot-car)
