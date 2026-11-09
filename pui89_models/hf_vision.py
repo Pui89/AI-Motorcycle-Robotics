@@ -1,25 +1,17 @@
-"""Opt-in local Hugging Face vision adapters for PUI89 projects.
+"""Offline-only Hugging Face vision adapters for PUI89 prototype integration.
 
-No model is downloaded at import time. By default, loaders only use model files
-already present in the local Hugging Face cache. Set PUI89_ALLOW_MODEL_DOWNLOAD=1
-or pass allow_download=True to permit a direct Hugging Face Hub download.
-Inference is CPU-only by default and never calls a hosted inference API.
+The adapters never download model files. They can load only from an existing
+local Hugging Face cache. No hosted inference API or cloud GPU is used.
 """
 from __future__ import annotations
 
-import os
 from typing import Iterable
 
 OWLV2_MODEL_ID = "google/owlv2-base-patch16-ensemble"
 DEPTH_MODEL_ID = "Intel/dpt-hybrid-midas"
 
 
-def _local_only(allow_download: bool) -> bool:
-    env_allows = os.environ.get("PUI89_ALLOW_MODEL_DOWNLOAD", "").strip() == "1"
-    return not (allow_download or env_allows)
-
-
-def load_owlv2(*, allow_download: bool = False):
+def load_owlv2():
     """Load OWLv2 for open-vocabulary object proposals.
 
     Requires torch, transformers and Pillow to be installed separately.
@@ -33,9 +25,8 @@ def load_owlv2(*, allow_download: bool = False):
             "hardware, package licences and disk space."
         ) from exc
 
-    local_only = _local_only(allow_download)
     processor = AutoProcessor.from_pretrained(
-        OWLV2_MODEL_ID, local_files_only=local_only
+        OWLV2_MODEL_ID, local_files_only=True
     )
     model = AutoModelForZeroShotObjectDetection.from_pretrained(
         OWLV2_MODEL_ID, local_files_only=local_only
@@ -44,8 +35,7 @@ def load_owlv2(*, allow_download: bool = False):
     return processor, model
 
 
-def detect_objects(image, labels: Iterable[str], *, threshold: float = 0.15,
-                   allow_download: bool = False):
+def detect_objects(image, labels: Iterable[str], *, threshold: float = 0.15):
     """Return OWLv2 text-conditioned box proposals for a PIL image.
 
     Results are observations, not verified identities or safety decisions.
@@ -58,7 +48,7 @@ def detect_objects(image, labels: Iterable[str], *, threshold: float = 0.15,
 
     import torch
 
-    processor, model = load_owlv2(allow_download=allow_download)
+    processor, model = load_owlv2()
     inputs = processor(text=[labels], images=image, return_tensors="pt")
     with torch.inference_mode():
         outputs = model(**inputs)
@@ -81,7 +71,7 @@ def detect_objects(image, labels: Iterable[str], *, threshold: float = 0.15,
     ]
 
 
-def load_dpt_hybrid(*, allow_download: bool = False):
+def load_dpt_hybrid():
     """Load the small Transformers-compatible Intel DPT-Hybrid checkpoint."""
     try:
         from transformers import AutoImageProcessor, AutoModelForDepthEstimation
@@ -94,7 +84,7 @@ def load_dpt_hybrid(*, allow_download: bool = False):
 
     local_only = _local_only(allow_download)
     processor = AutoImageProcessor.from_pretrained(
-        DEPTH_MODEL_ID, local_files_only=local_only
+        DEPTH_MODEL_ID, local_files_only=True
     )
     model = AutoModelForDepthEstimation.from_pretrained(
         DEPTH_MODEL_ID, local_files_only=local_only
@@ -103,12 +93,12 @@ def load_dpt_hybrid(*, allow_download: bool = False):
     return processor, model
 
 
-def estimate_relative_depth(image, *, allow_download: bool = False):
+def estimate_relative_depth(image):
     """Return a relative-depth map; values are not metric distance or water depth."""
     import torch
     import torch.nn.functional as F
 
-    processor, model = load_dpt_hybrid(allow_download=allow_download)
+    processor, model = load_dpt_hybrid()
     inputs = processor(images=image, return_tensors="pt")
     with torch.inference_mode():
         outputs = model(**inputs)
