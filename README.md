@@ -87,7 +87,9 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 - **190 kg proposed total payload**, including rider, passenger and cargo. This is an unvalidated target pending structural, tyre, suspension, braking, wheel-load and stability tests.
 - Large lockable under-seat storage target; final volume, helmet fit, heat separation and sealing remain to be engineered.
 - Everyday road performance target comparable to mainstream petrol scooters. A provisional **90–110 km/h design-study range** is for engineering evaluation only, not a verified top speed or public-road claim.
-- All-weather design intent for rain, heat, humidity, dust and cold-weather markets. No flood-proof or all-climate certification is claimed.
+- All-weather commuter design intent, taking inspiration from the practical simplicity and everyday durability associated with older Honda Wave-style step-through scooters. This is a design reference only, not a claim of equivalent water resistance or performance.
+- Water-resilience requirements: protected air intake and exhaust routing, sealed electrical connectors, elevated/protected control electronics, drainage paths that avoid trapping water, corrosion-resistant fasteners and coatings, splash shields, and serviceable water-sensitive components.
+- Design for heavy rain, road spray, wet roads and limited splash exposure after validation. Do not design or market the scooter as flood-proof, submersible, or safe to ride through floodwater.
 
 ### Eight AI assistance capabilities
 1. Road perception: potholes, debris, obstacles, animals, road damage and surface changes.
@@ -103,7 +105,10 @@ _Last readiness review: 7 November 2026. This estimate can rise or fall as evide
 Reuse the PUI89 AI Core with PUI89 AI Car: Observation, WorldState, ActionProposal and FailureReport contracts; sensor-freshness checks; uncertainty and conflict handling; risk analysis; evidence provenance; evaluation records; and safety gates. Vehicle-specific safety limits remain separate. AI outputs are advisory and must not issue throttle, steering, braking or other physical-control commands.
 
 ### Water, fire and rider safety
-- Test sealed electronics and suitable ingress-protection ratings at component and assembled-vehicle level. Water resistance does not mean safe flood crossing or submersion.
+- Use a defined water-ingress test plan for connectors, sensors, display, controller, battery enclosure and assembled vehicle; select and verify ingress-protection ratings with qualified testing. No IP rating is assigned until tested.
+- Protect the air intake, electrical connectors, controller and battery enclosure from rain and road spray; include drainage, corrosion protection and inspection points.
+- Honda Wave-style everyday practicality is an inspiration for serviceability and wet-weather usability only. It is not evidence that this concept can cross floodwater.
+- Water resistance does not mean safe flood crossing, deep-water operation or submersion. Riders must stop and avoid flooded roads.
 - Investigate battery chemistry, fusing, contactors, thermal monitoring, propagation barriers, venting and emergency isolation. Never describe the vehicle as fireproof.
 - Investigate ABS, traction control, lighting, load distribution, braking at maximum payload and passenger footrests; these are requirements, not established features.
 - Missing, stale or conflicting sensor inputs must reduce confidence; critical vehicle controls remain independent of AI.
