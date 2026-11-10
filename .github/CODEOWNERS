@@ -1,0 +1,4 @@
+# Default owner review routing. This file only requests reviewers;
+# enforce required CODEOWNERS approval in repository rulesets.
+* @Pui89
+.github/ @Pui89
