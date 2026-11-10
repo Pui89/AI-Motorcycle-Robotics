@@ -1,0 +1,42 @@
+{
+  "profile_version": "0.1.0",
+  "project_id": "ai-motorcycle-easyride",
+  "project_name": "AI Motorcycle / EasyRide",
+  "integration_status": "profile_documented_runtime_adapter_pending",
+  "shared_core": {
+    "repository": "Pui89/PUI89-Shared-AI-Core",
+    "contract": "anomaly_evidence",
+    "contract_version": "0.1.0",
+    "connection_status": "not_connected"
+  },
+  "intended_modalities": [
+    "rgb",
+    "lidar",
+    "depth",
+    "imu"
+  ],
+  "candidate_scope": [
+    "Camera obstruction, sensor health drift and road-scene input anomalies",
+    "Cross-sensor disagreement and weather/visibility shifts"
+  ],
+  "explicit_non_goals": [
+    "Does not establish safe riding conditions or a validated flood-crossing depth",
+    "No steering, throttle or braking command from anomaly scores"
+  ],
+  "required_gates": [
+    "Require calibration, time sync, sensor health and conservative uncertainty handling",
+    "Unknown, missing or conflicting evidence triggers human warning/review only",
+    "No autonomous control; vehicle safety controls remain independent",
+    "execution_authorized=false",
+    "No paid API, subscription, cloud GPU, model download or new dependency without explicit approval"
+  ],
+  "model_adapters": {
+    "PaDiM": "not_configured",
+    "PatchCore": "not_configured",
+    "EfficientAD": "not_configured"
+  },
+  "model_weights": "not_downloaded",
+  "dataset_status": "no_dataset_authorised_or_loaded_by_this_profile",
+  "evidence_status": "documentation_only; no model accuracy, runtime integration, hardware validation or field safety is claimed",
+  "cost_policy": "zero-cost-first; no external services or downloads"
+}
