@@ -1,5 +1,10 @@
 # PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
 
+
+## Public privacy boundary
+
+This public README is limited to the project overview, approved concept material and evidence that can be shared openly. Do not publish API keys, passwords, private tokens, Wi-Fi or internal network settings, private camera footage, personal or precise location data, detailed security configurations, unreleased engineering specifications, or confidential commercial plans. Keep sensitive material in an appropriately access-controlled private location. If a credential may have been exposed, revoke it; removing it from the latest commit does not remove it from Git history.
+
 ## Open-source-first engineering
 
 PUI89 prioritises open-source software, transparent licensing, reproducible workflows and evidence-led collaboration. Model weights, datasets, hosted services and hardware are assessed separately for provenance, licence terms, security, data handling, resource requirements and intended use. Public availability alone does not establish permission for reuse or commercial deployment.
@@ -158,12 +163,6 @@ The roadmap explores three complementary areas for rider-first assistance. These
 4. Add evaluation, robustness, security and regression tests.
 5. Consider hardware only after documented safety reviews, legal review and qualified engineering validation.
 
-## Weight and validation boundary
-
-An early feasibility study may explore a 95–110 kg vehicle-mass target, excluding optional accessories. This is an unvalidated research target, not a final specification. Rider fit, structural strength, braking, stability, load capacity and regulatory requirements take priority over weight reduction.
-
-Water resistance, fire resistance, battery safety, braking performance and durability are requirements to investigate and test — they are not verified capabilities.
-
 ## Current truth
 
 This repository is an initial software and research scaffold. It does not contain a functioning motorcycle, validated perception model, real-time vehicle integration or certified safety system. All outputs are advisory prototypes until independently validated.
@@ -313,25 +312,3 @@ Scores are awarded only through a dated review with a defined scope, version/com
 This score is separate from any commercial-readiness estimate and is not certification, safety approval or an investment rating.
 <!-- PUI89_PROJECT_STRENGTH_SCORECARD:END -->
 
-## Materials & Hardware — Research Plan
-
-**Status: rider-assistance software concept and motorcycle hardware research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
-
-| Subsystem | Candidate materials / hardware | Purpose and checks before selection |
-|---|---|---|
-| Base vehicle/frame | Existing two-wheel step-through motorcycle platform; engineered steel or aluminium components | Verify frame integrity, load rating, geometry, fatigue, legal type approval and qualified engineering |
-| Body/step-through | Impact-resistant polymer panels, aluminium brackets, non-slip footboard and corrosion-resistant fasteners | Verify strength, snag points, heat, ground clearance and ingress |
-| Seat/rider interface | Motorcycle-grade seat foam/cover and adjustable handlebar/contact-point hardware | Verify ergonomics, reach, passenger loading, durability and rider trials |
-| Powertrain monitoring | Battery voltage/current/temperature sensing and compatible non-invasive diagnostic interfaces | Verify electrical compatibility, isolation, accuracy and no interference with OEM safety systems |
-| Road perception | Forward/rear RGB cameras, optional radar/depth sensor and protected mounts | Verify weather, vibration, field of view, calibration, distraction and privacy |
-| Weather context | Ambient temperature, rain/wetness and visibility-related observations | Verify sensor limits, false alarms and safe advisory wording |
-| Motion/location | IMU, GNSS and lawful/compatible vehicle-speed input | Verify calibration, drift, interface safety and stale-data handling |
-| Rider interface | Glance-limited display, audible/haptic alerts and acknowledgement controls | Verify distraction, accessibility, fail-silent behaviour and rider override |
-| Power/enclosure | Fused low-voltage supply, protected DC-DC converter, sealed connectors and vibration-resistant enclosure | Verify transients, heat, water ingress, vibration, EMC and isolation |
-| Safety/maintenance | Independent fuse/isolation, cable protection, service labels and manual disconnect | Verify qualified installation and no interference with braking/steering/throttle |
-
-Investigate the two-wheel low step-through layout, continuous non-slip footboard, enclosed chain/belt, storage and comfortable two-person seating as engineering requirements—not confirmed specifications. Payload must include occupants and cargo and be validated against the base vehicle, tyres, suspension, frame and brakes.
-
-AI may provide advisory hazard and vehicle-health warnings with confidence, provenance and data-freshness indicators. It must not command steering, throttle, braking, acceleration or other vehicle actuation. Water, dust, heat, vibration and fire resistance are requirements to test, not ratings to claim without evidence.
-
-**Procurement rule:** research only. No purchases, subscriptions, supplier contact or paid services without explicit approval. Verify compatibility, datasheets, installation method, electrical limits, legal requirements, price, shipping and warranty before selection.
