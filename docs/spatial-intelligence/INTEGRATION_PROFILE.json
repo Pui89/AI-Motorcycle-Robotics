@@ -1,0 +1,39 @@
+{
+  "profile_version": "0.1.0",
+  "project_id": "ai-motorcycle-robotics",
+  "project_name": "AI Motorcycle Robotics / EasyRide",
+  "integration_status": "profile_added_runtime_integration_pending",
+  "shared_core": {
+    "repository": "Pui89/PUI89-Shared-AI-Core",
+    "pull_request": "https://github.com/Pui89/PUI89-Shared-AI-Core/pull/26",
+    "release_status": "draft_not_merged"
+  },
+  "intended_use": "Advisory road-surface geometry and obstacle-relative position.",
+  "recommended_modalities": [
+    "rgb",
+    "lidar",
+    "depth",
+    "imu"
+  ],
+  "planned_spatial_tasks": [
+    "Road surface and obstacle geometry for later review",
+    "Spatial observations linked to time and coordinate frame",
+    "Flood-scene geometry only as a separate unvalidated research input"
+  ],
+  "limitations_and_safety_boundaries": [
+    "No lean, balance, traction, water-depth or rider-safety inference.",
+    "No steering, braking, throttle or self-balancing control.",
+    "20 cm floodwater remains an engineering research target, not an approved riding capability."
+  ],
+  "common_gates": [
+    "usable evidence quality",
+    "valid calibration status before sensor fusion",
+    "matching coordinate frames",
+    "timestamp synchronization within a validated project-specific tolerance",
+    "uncertainty and sensor-health assessment",
+    "human review required",
+    "execution_authorized=false"
+  ],
+  "evidence_status": "No real sensor integration, model accuracy, field validation, hardware safety or certification is claimed.",
+  "cost_policy": "standard-library-first; no paid APIs, subscriptions, cloud GPU, automatic model downloads or additional sensor purchases"
+}
