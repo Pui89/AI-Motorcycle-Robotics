@@ -18,7 +18,6 @@ on:
 
 permissions:
   contents: read
-  security-events: write
 
 concurrency:
   group: pui89-security-${{ github.workflow }}-${{ github.ref }}
@@ -29,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Scan current repository for common exposed credentials
         shell: bash
         run: |
@@ -42,9 +41,12 @@ jobs:
   codeql:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: read
+      security-events: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: github/codeql-action/init@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: github/codeql-action/init@0911ee96d2d6c8def97122c36c5cadd93829a4b4
         with:
           languages: actions
-      - uses: github/codeql-action/analyze@v4
+      - uses: github/codeql-action/analyze@0911ee96d2d6c8def97122c36c5cadd93829a4b4
