@@ -19,4 +19,4 @@ Shared contract: [PUI89 Perception and Accuracy Standard](https://github.com/Pui
 
 Measure road-hazard recall, false alarms, distance/closing-speed error, lane/edge localization, wet/dark condition performance, IMU-camera time alignment, slip-event detection and warning lead time. Use independent measured ground truth and closed-course supervised evaluation before any physical capability claim.
 
-**Safety boundary:** perception is driver assistance research, not autonomous control authorization. No steering, braking, acceleration or water-crossing command is authorized by these requirements.
+**Safety boundary:** perception is driver-assistance research, not autonomous control authorization. No steering, braking, acceleration or water-crossing command is authorized by these requirements.
