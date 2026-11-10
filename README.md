@@ -335,3 +335,8 @@ Investigate the two-wheel low step-through layout, continuous non-slip footboard
 AI may provide advisory hazard and vehicle-health warnings with confidence, provenance and data-freshness indicators. It must not command steering, throttle, braking, acceleration or other vehicle actuation. Water, dust, heat, vibration and fire resistance are requirements to test, not ratings to claim without evidence.
 
 **Procurement rule:** research only. No purchases, subscriptions, supplier contact or paid services without explicit approval. Verify compatibility, datasheets, installation method, electrical limits, legal requirements, price, shipping and warranty before selection.
+
+
+## Spatial Intelligence integration
+
+See [the project-specific spatial integration profile](docs/spatial-intelligence/README.md). This is a documented integration contract; runtime sensor integration and physical validation remain pending.
