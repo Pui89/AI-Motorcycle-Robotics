@@ -52,6 +52,27 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 <table><tr><td align="center"><strong>English website</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-en.png" width="160" alt="PUI89 AI Step-Through Scooter English website QR code"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle.html">Open English website</a></td><td align="center"><strong>เว็บไซต์ภาษาไทย</strong><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html"><img src="https://pui89.github.io/qr/ai-robot-motorcycle-th.png" width="160" alt="QR Code เว็บไซต์ภาษาไทย PUI89 AI Step-Through Scooter"></a><br><a href="https://pui89.github.io/ai-robot-motorcycle-th.html">เปิดเว็บไซต์ภาษาไทย</a></td></tr></table>
 
+## PUI89 development maturity snapshot — 12 November 2026
+
+**Strategic direction: From AI Projects to AI Products.**  
+**Current maturity: Level 2 — Architecture Defined.** The product architecture and software-first research foundation are documented; a built motorcycle and validated physical capabilities are not established.
+
+
+**Shared platform evidence (separate from project validation):** the PUI89 Shared AI Core main-branch CI reported 187 dependency-free tests passed on 11 November 2026. This platform-level result does not establish this project's model accuracy, physical integration or field performance.
+
+| Area | Verified position |
+|---|---|
+| Product definition | Rider-first two-wheel concept with easy step-through access, upright posture, supportive seating and practical everyday usability. |
+| Inclusive requirements | Low/open step-through, broad non-slip footboard, snag-risk reduction, readable controls and diverse adult-rider fit are design requirements requiring user testing. |
+| Software and AI | Software-first and simulation-first research scaffold; opt-in model-adapter code is documented, but model inference and motorcycle-specific accuracy are not yet tested. |
+| Physical product | No built motorcycle, validated braking/stability, load capacity, battery layout, weather protection or road certification is established. |
+
+**Next product gate:** translate rider needs into measurable ergonomic and safety requirements; assess entry/exit, clothing snag hazards, centre of gravity, structural loads, braking, stability, battery/thermal protection, serviceability and regulatory constraints. Create deterministic software/simulation scenarios before considering physical integration.
+
+**Product discipline:** the rider retains control; no autonomous riding or physical actuation is enabled. Water resistance, fire performance, durability and road safety are requirements for qualified engineering and testing, not existing capabilities. No paid API, cloud GPU, automatic model download or physical vehicle actuation is part of this update.
+
+
+
 <p align="center">
   <img src="docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg" alt="PUI89 AI Step-Through Scooter concept in Deep Navy and Electric Cyan, with two wheels, a long black seat, continuous step-through floorboard and advisory AI sensors" width="100%">
 </p>
