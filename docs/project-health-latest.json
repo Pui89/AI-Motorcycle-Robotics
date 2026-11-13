@@ -1,0 +1,33 @@
+{
+  "project": "PUI89 AI Robot Motorcycle",
+  "review_date": "2026-11-14",
+  "review_timezone": "Asia/Bangkok",
+  "cadence": "daily",
+  "progress_percent": 28,
+  "evidence_score": 28,
+  "evidence_possible": 100,
+  "evidence_coverage_percent": 88,
+  "evidence_confidence_proxy": "High",
+  "shared_ai_core_integration_percent": 0,
+  "shared_ai_core_verified_items": 0,
+  "shared_ai_core_total_items": 6,
+  "next_milestone": "Add traceable, reproducible evidence for: Integrated product prototype.",
+  "security_review": {
+    "secret_pattern_findings": [],
+    "dependency_manifests": [],
+    "workflow_files": [
+      ".github/workflows/daily-project-progress.yml",
+      ".github/workflows/pui89-security-audit.yml",
+      ".github/workflows/quality.yml",
+      ".github/workflows/security.yml"
+    ],
+    "license_file_present": true,
+    "security_policy_present": true,
+    "scope": "Limited high-confidence text-pattern and file-presence checks; not a full secret scanner, dependency vulnerability audit, licence opinion, branch-ruleset audit or penetration test."
+  },
+  "limitations": [
+    "Confidence is a coverage-derived proxy, not statistical confidence.",
+    "Static checks do not replace security alerts, dependency audits, human licence review, threat modelling or penetration testing.",
+    "Scores do not increase with elapsed time; evidence credits require deliberate review."
+  ]
+}

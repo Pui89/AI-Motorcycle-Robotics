@@ -361,3 +361,47 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 จะนับเมื่อมีสถานะเสร็จสมบูรณ์ วันที่ ขอบเขต บทบาทผู้ทบทวน ผลการทบทวน และหลักฐานอ้างอิงอย่างน้อยหนึ่งรายการครบถ้วนเท่านั้น รายการร่าง คะแนน ดาว ยอดเข้าชม และความคิดเห็นจะไม่นับ
 <!-- PUI89_EVIDENCE_BACKED_REVIEW:END -->
 
+<!-- PUI89_DAILY_PROGRESS:START -->
+## PUI89 project intelligence dashboard
+
+**🟠 28% — Foundation and prototype stage** · **Evidence score:** 28/100  
+**Evidence coverage:** 88% of readiness gates have non-zero credits · **Coverage-derived confidence:** High  
+**Review:** 14 November 2026 05:07 (Asia/Bangkok) · **Cycle:** Daily  
+**Progress:** 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 28%
+
+This is an evidence-weighted readiness estimate, not code completion, product certification, field validation or commercial performance. Scores do not increase with time. Credits change only after human review of traceable evidence.
+
+| Readiness gate | Evidence credit | Visual score |
+|---|---:|---|
+| Purpose & requirements | 8/10 | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| Architecture & engineering | 8/10 | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| Working software baseline | 4/15 | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Reproducible tests & evaluation | 3/15 | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Integrated product prototype | 0/15 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Safety & real-world validation | 1/15 | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Licensing & regulatory readiness | 3/10 | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ |
+| Release package & support | 1/10 | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| **Total** | **28/100** | **🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜** |
+
+### Monthly history (latest snapshot per month)
+| Month | Score | Graph |
+|---|---:|---|
+| 2026-11 | 28% | 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+
+### Shared AI Core integration
+**0% verified** (0/6 integration controls). Only controls marked verified with a supporting evidence_ref count. See docs/shared-ai-core-integration.json.
+
+### Security and repository health
+🟢 No high-confidence private-key, GitHub-token or AWS-access-key patterns detected by this limited scan.
+
+- Licence file: present
+- Security policy: present
+- Dependency manifests: 0 detected
+- Workflow files: 4 detected
+- Review details: docs/project-health-latest.json
+
+**Next milestone:** Add traceable, reproducible evidence for: Integrated product prototype.
+
+**Limitations:** This automated check is a first-line repository review, not a complete security audit, licence opinion, dependency vulnerability scan, branch-ruleset verification or physical safety validation. Software tests and simulations do not establish a built, certified or field-tested robot.
+
+<!-- PUI89_DAILY_PROGRESS:END -->
