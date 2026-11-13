@@ -36,6 +36,24 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 > 
 > **Validation boundary:** AI assistance remains advisory; no autonomous riding, physical actuation, roadworthiness or rider-safety validation is claimed.
 
+## Perception & Task Intelligence (PTI)
+
+**Role in this product:** provide rider-centred road awareness and concise warning support for the PUI89 AI Step-Through Scooter concept. PTI is the shared PUI89 perception-and-task framework; these are intended research tasks, not production rider-safety features.
+
+**Priority perception tasks**
+- Check camera visibility, image quality, weather effects, sensor availability and observation freshness.
+- Detect supported nearby vehicles, pedestrians, road hazards and traffic signs.
+- Track approaching or crossing road users where sensor placement and evaluation support reliable association.
+- Estimate relative distance or closing risk only with suitable calibrated inputs; otherwise report uncertainty rather than a precise risk score.
+- Interpret rain and visibility context, and surface authorised read-only battery/temperature observations if those interfaces become available.
+- Present concise, low-distraction rider warnings with evidence and uncertainty; abstain when inputs are missing or unreliable.
+
+**Task flow:** OBSERVE → PERCEIVE → ASSESS → DECIDE → RESPOND → LEARN FROM EVIDENCE. Outputs are advisory only. The rider remains in control; PTI must not command steering, throttle or braking.
+
+**First evidence gate:** licensed road-scene datasets, defined supported classes, held-out evaluation, missed/false detection analysis, uncertainty and latency tests, followed by staged stationary/closed-course evaluation under human supervision and independent safety controls.
+
+**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [shared PTI specification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/perception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
+
 ## Development stage
 
 **Current stage:** Concept & engineering foundation  
