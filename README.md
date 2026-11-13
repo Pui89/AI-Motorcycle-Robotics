@@ -39,7 +39,7 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 ## Development stage
 
 **Stage:** Stage 1 of 5 — Concept and engineering requirements
-**ขั้นการพัฒนา:** Concept and requirements
+**ระยะการพัฒนา:** แนวคิดและข้อกำหนดทางวิศวกรรม
 
 **Shared framework:** [PUI89 Development Stage Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_DEVELOPMENT_STAGE_STANDARD.md)
 
