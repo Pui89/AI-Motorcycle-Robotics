@@ -1,37 +1,37 @@
 name: Bug report
-description: Report a reproducible problem or safety concern\ntitle: "[Bug]: "
-labels: []
+description: Report a reproducible problem or safety concern
+title: "[Bug]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Report only information you are authorized to share. Do not upload personal data, credentials, restricted records, or unlicensed imagery. Physical safety concerns must be clearly identified.
+        Report only information you are authorized to share. Do not upload personal data, credentials, restricted records, or unlicensed imagery. Clearly identify rider and road safety concerns.
   - type: dropdown
     id: area
     attributes:
       label: Product area
       options:
-      - "Road and obstacle perception"
-      - "Flood and weather risk awareness"
-      - "Rider warning and assistance"
-      - "Battery and thermal monitoring"
-      - "Vehicle health and maintenance"
-      - "Edge AI and sensor integration"
-      - "Simulation and validation"
+        - Road and obstacle perception
+        - Flood and weather risk awareness
+        - Rider warning and assistance
+        - Battery and thermal monitoring
+        - Vehicle health and maintenance
+        - Edge AI and sensor integration
+        - Simulation and validation
     validations:
       required: true
   - type: textarea
     id: summary
     attributes:
       label: What happened?
-      description: Describe the observed behaviour. Separate observation from assumptions.
+      description: Describe observed behaviour and separate observation from assumptions.
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
       label: Steps or conditions to reproduce
-      placeholder: Include version, configuration, and safe test conditions.
+      description: Include version, configuration, and safe test conditions.
     validations:
       required: true
   - type: textarea
