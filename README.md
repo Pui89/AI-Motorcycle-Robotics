@@ -361,3 +361,19 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 จะนับเมื่อมีสถานะเสร็จสมบูรณ์ วันที่ ขอบเขต บทบาทผู้ทบทวน ผลการทบทวน และหลักฐานอ้างอิงอย่างน้อยหนึ่งรายการครบถ้วนเท่านั้น รายการร่าง คะแนน ดาว ยอดเข้าชม และความคิดเห็นจะไม่นับ
 <!-- PUI89_EVIDENCE_BACKED_REVIEW:END -->
 
+## AI Engineering Intelligence & Weather/Flood-Resilient Scooter Design
+
+PUI89 Engineering Intelligence supports rider ergonomics, vehicle dynamics, hazard awareness, environmental design, simulation and evidence review. **The scooter should be engineered for severe rain and wet-road use, but no flood-crossing capability is established.** A two-wheel scooter has distinct stability and rider-exposure risks; it must not inherit an SUV water-exposure target.
+
+**Product-specific design priorities**
+- Step-through structure: preserve the low, open step-through and continuous non-slip floorboard while engineering frame stiffness, fatigue strength, foot clearance and clothing-snag protection.
+- Rider stability: assess centre of gravity, steering geometry, wheel/tyre selection, braking balance, wet traction, low-speed handling, suspension and passenger/load cases.
+- Water/electrical protection: study battery/motor/controller enclosures, connectors, cable routing, drainage, corrosion and post-exposure inspection; define and test ingress limits by component and vehicle configuration.
+- Wet-weather safety: assess tyre grip, brake performance, visibility, lighting, water spray, sensor contamination and rider-warning ergonomics.
+- Flood awareness: detect visible water hazards and use trusted measured depth/closure information where available; never infer safe depth from appearance. Unknown depth/current/passability means avoid the route. Do not recommend riding through moving or rising water.
+- Human-centred design: evaluate mounting/dismounting, reach, seat comfort, passenger accommodation, clothing clearance and accessible controls with adult riders.
+- Power/thermal design: assess battery protection, motor/controller thermal limits, charging safety and fault monitoring without AI actuation of propulsion or braking.
+
+**AI methods to evaluate:** rider-centred road perception, near-field hazard detection, wet-road context, sensor-health monitoring, predictive maintenance, battery/thermal advisory analytics and vehicle-dynamics simulation.
+
+**Evidence gates:** ergonomic requirements/hazard analysis → synthetic road/wet-weather scenarios → component environmental tests → supervised stationary and closed-course trials → braking, stability, ingress, electrical and regulatory validation. The 20 cm water figure remains a future study target only, not a safe or approved crossing depth.
