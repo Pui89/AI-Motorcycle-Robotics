@@ -36,6 +36,10 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 > 
 > **Validation boundary:** AI assistance remains advisory; no autonomous riding, physical actuation, roadworthiness or rider-safety validation is claimed.
 
+## Hardware & Materials Sourcing
+
+PUI89 uses a traceable sourcing workflow for materials, mechanical parts, sensors, compute, power and control components. See the [bilingual Hardware & Materials Sourcing guide](https://pui89.github.io/materials.html) for the process covering exact manufacturer/model identification, Thailand and international supplier discovery, country-of-origin evidence, dated pricing and availability, lead times, shipping, compatibility checks and verification gates. Product-specific candidates are added only when supported by evidence; research candidates are not purchases or validated hardware.
+
 ## Perception & Task Intelligence (PTI)
 
 **Role in this product:** provide rider-centred road awareness and concise warning support for the PUI89 AI Step-Through Scooter concept. PTI is the shared PUI89 perception-and-task framework; these are intended research tasks, not production rider-safety features.
