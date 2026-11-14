@@ -40,6 +40,27 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 PUI89 uses a traceable sourcing workflow for materials, mechanical parts, sensors, compute, power and control components. See the [bilingual Hardware & Materials Sourcing guide](https://pui89.github.io/materials.html) for the process covering exact manufacturer/model identification, Thailand and international supplier discovery, country-of-origin evidence, dated pricing and availability, lead times, shipping, compatibility checks and verification gates. Product-specific candidates are added only when supported by evidence; research candidates are not purchases or validated hardware.
 
+### Prototype materials & cost snapshot
+
+**Planning allowance for one research prototype: ฿11,000–50,000.** This is a preliminary estimate from the [PUI89 project-specific BOM](https://pui89.github.io/materials.html#project-boms), not a supplier quotation or verified current market price.
+
+Rider-centred awareness research for a practical step-through two-wheeler, using removable sensors and read-only telemetry.
+
+| Main item | Prototype quantity | Purpose |
+|---|---:|---|
+| Forward RGB camera | 1 | Road/obstacle observation |
+| Rear RGB camera | 1 | Rear observation |
+| GNSS receiver + IMU | 1 each | Position and motion context |
+| Read-only telemetry/battery interface | 1 | Monitor supported data only |
+| Edge compute | 1 shared | Reuse shared unit first |
+| Weatherproof mounts, isolation and cables | 1 set | Rain and vibration protection |
+
+**Special engineering / purchase gate:** Keep all rider controls human-operated. Do not command steering, throttle or braking. Validate vibration, rain protection, camera field of view, mounting retention, power isolation and rider distraction before closed-course tests.
+
+**Shared engineering bench (tracked separately):** approximately ฿16,500–46,000 if the existing development computer is reused. This is a portfolio-level allowance for reusable compute, one RGB-D camera, bench power supply/multimeter, two microcontroller boards and reusable tools/wiring/adapters; it is not added to each project total. Allocate each shared item once, not once per product.
+
+**Cost status:** exact manufacturer/model, manufacturing origin, supplier, stock, lead time and dated prices remain to be verified. Freight, insurance, duty, VAT, brokerage, local delivery, custom fabrication labour and certification are not priced here; calculate Thai landed cost only from dated quotations. Quantities are for one prototype; no purchase or supplier commitment is authorised. Software-first work can continue with available computing and appropriately licensed open-source tools before hardware procurement.
+
 ## Perception & Task Intelligence (PTI)
 
 **Role in this product:** provide rider-centred road awareness and concise warning support for the PUI89 AI Step-Through Scooter concept. PTI is the shared PUI89 perception-and-task framework; these are intended research tasks, not production rider-safety features.
