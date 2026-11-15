@@ -416,3 +416,40 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 จะนับเมื่อมีสถานะเสร็จสมบูรณ์ วันที่ ขอบเขต บทบาทผู้ทบทวน ผลการทบทวน และหลักฐานอ้างอิงอย่างน้อยหนึ่งรายการครบถ้วนเท่านั้น รายการร่าง คะแนน ดาว ยอดเข้าชม และความคิดเห็นจะไม่นับ
 <!-- PUI89_EVIDENCE_BACKED_REVIEW:END -->
 
+---
+
+## Preliminary Prototype Cost Estimate (15 November 2026)
+
+**Indicative one-unit engineering prototype planning range: ฿60,000–฿200,000 (THB).**
+
+**Included at a planning level:** AI compute and sensor-integration prototype using an existing compatible scooter or bench rig, camera/sensors, mounting, power integration and basic testing.
+
+**Estimate status:** preliminary internal planning estimate only; not a supplier quotation, purchase commitment, verified bill of materials, fixed project budget or claim that a prototype exists. The range depends on final requirements, component selection, non-Chinese-origin supplier availability, compatibility, import/shipping costs and test scope. Obtain current written quotations and verify country of manufacture/origin, exact model/part number, specifications, warranty and lead time before any procurement.
+
+**Generally excluded:** purchase of a donor scooter, engineering labour, research salaries, facilities, taxes/VAT, import duties, shipping unless stated in a supplier quotation, certification/regulatory approvals, production tooling, mass production, long-term maintenance and contingency. Major vehicle modifications and road-vehicle certification are also excluded.
+
+**Lower-cost development path:** continue software-first development, open-source tools and simulation before purchasing physical hardware. Shared AI Core software and reusable development equipment may reduce duplicated costs; savings are not yet quantified. No purchase or installation is authorised by this estimate.
+
+
+### Prototype hardware, materials and component budget breakdown
+
+**Planning scope:** one engineering prototype; total planning range remains **฿60,000–฿200,000 THB**. The following subsystem allowances are preliminary engineering estimates, not supplier quotes. Individual ranges are not a promise of purchase price and must be reconciled against exact selected parts and written quotations before procurement.
+
+| Subsystem / component type | Qty per prototype | Material / specification and function | Indicative allowance (THB) |
+|---|---:|---|---:|
+| Front / rear RGB cameras | 2 | Road and rear awareness; weather-rated housings and suitable field of view | ฿10,000–฿32,000 |
+| Edge compute + local storage | 1 set | CPU-first compact computer; thermal and vibration envelope assessed | ฿15,000–฿45,000 |
+| GNSS + IMU | 1 set | Position, movement and lean-context sensing; mount and calibration | ฿5,000–฿18,000 |
+| Read-only telemetry interface | 1 isolated interface | Only supported read-only vehicle/battery data; no actuator control | ฿2,000–฿8,000 |
+| Protected power + wiring | 1 set | Fuse, DC/DC, transient protection, connectors and removable harness | ฿5,000–฿18,000 |
+| Weather / vibration mounts + enclosure | 1 set | Removable non-structural mounts, seals, vibration isolation and cable strain relief | ฿8,000–฿28,000 |
+| Display / alerts / connectivity | 1 set | Simple rider alerts and local connectivity without distracting interfaces | ฿5,000–฿16,000 |
+| Installation, calibration + closed-area tests | 1 lot | Stationary installation checks, vibration/water ingress checks and supervised advisory tests | ฿10,000–฿35,000 |
+
+**Material families:** aluminium alloy or stainless-steel structural members where suitable; engineering polymer covers; corrosion-resistant fasteners; rated cables/connectors; protective enclosures; and product-specific seals, guards or vibration isolation. Exact alloy/grade, IP rating, load rating and country of manufacture remain unselected until engineering calculations and supplier evidence are available.
+
+**Shared hardware accounting:** Shared AI Core software is not a product BOM. Reusable development computers, cameras or bench instruments must be listed as shared assets and allocated once; do not duplicate their full purchase cost across all seven products. Product-specific mounts, wiring, protection and integration remain in each product allowance.
+
+**Sourcing controls:** prefer non-Chinese-origin candidates only when the exact manufacturing origin is evidenced. Record legal manufacturer, brand, exact model/part number, manufacturing country, evidence URL/document, authorised supplier, dated price/currency, stock, MOQ, lead time, warranty and landed-cost assumptions. Brand headquarters or seller location is not proof of manufacturing origin. Unknown origin = **UNVERIFIED**.
+
+**Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
