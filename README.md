@@ -283,7 +283,7 @@ This repository now includes real Hugging Face checkpoint adapters in [`pui89_mo
 
 ## PUI89 efficient engineering profile
 
-This project follows the shared [PUI89 Efficient Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/PUI89_EFFICIENT_ENGINEERING_STANDARD.md). The standard is proposed in portfolio PR #152 and becomes the canonical reference after merge.
+This project follows the adopted [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md) as its portfolio-wide engineering framework.
 
 **Project focus:** Prioritise low-power monitoring, advisory latency, resource-bounded perception, battery/thermal health and fail-safe degradation. Do not optimise by weakening rider alerts, deterministic safety gates or human control.
 
@@ -399,7 +399,7 @@ See [the project-specific spatial integration profile](docs/spatial-intelligence
 <!-- PUI89_EVIDENCE_BACKED_REVIEW:START -->
 ## Evidence-backed project review status
 
-**Project:** PUI89 AI Robot Motorcycle  
+**Project:** PUI89 AI Step-Through Scooter  
 **README snapshot (13 November 2026): 0 completed evidence-backed reviews.** This snapshot is not auto-synchronised; the live [PUI89 portfolio review register](https://pui89.github.io/#evidence-backed-project-reviews) is the source of truth.
 
 This is a review-record count, not a statement that development or testing has not occurred. Engineering work, CI runs, test results and simulation evidence may support a review, but do not automatically count as a completed review.
@@ -456,4 +456,4 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 
 ## World-Class Engineering Standard v1.0
 
-This product follows the proposed [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md), alongside the [PUI89 Simple, Safe & Professional Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_SIMPLE_SAFE_PROFESSIONAL_STANDARD.md). The shared standard defines requirements traceability, Shared AI Core contracts, PTI evaluation, simulation, safety, hardware provenance, cost engineering, verification and release gates. Product capabilities remain subject to their stated evidence and validation boundaries; this reference does not imply that a gate has been passed.
+This product follows the [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md), alongside the [PUI89 Simple, Safe & Professional Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_SIMPLE_SAFE_PROFESSIONAL_STANDARD.md). The shared standard defines requirements traceability, Shared AI Core contracts, PTI evaluation, simulation, safety, hardware provenance, cost engineering, verification and release gates. Product capabilities remain subject to their stated evidence and validation boundaries; this reference does not imply that a gate has been passed.
