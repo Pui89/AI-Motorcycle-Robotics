@@ -466,3 +466,11 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
 This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+
+---
+
+## Alignment with PUI89 AI 2030 Vision
+
+**Strategic direction (proposed, not a completed capability):** develop rider-centred awareness for road/obstacle context, weather, route risk, battery/thermal condition and maintenance support. The product direction is a practical step-through two-wheeler. The rider retains all controls; no autonomous steering, throttle, braking or road-certified capability is claimed.
+
+See the [PUI89 AI 2030 Vision](https://pui89.github.io/ai-2030-vision.html) and [Shared AI Core roadmap](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/strategy/PUI89_AI_2030_VISION_AND_IMPLEMENTATION_ROADMAP_V1.0.md).
