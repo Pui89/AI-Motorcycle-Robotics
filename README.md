@@ -454,6 +454,19 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 
 **Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
 
+## Shared Interaction Intelligence — EasyRide AI Step-Through Scooter
+
+The proposed rider interaction profile is deliberately limited to simple, low-distraction communication:
+
+- Spoken navigation prompts and concise safety/status alerts.
+- Optional voice requests when stationary or in a verified low-risk state.
+- Thai/English speech support only after real-world noise, helmet and road-condition evaluation.
+- Push-to-talk or physical controls as alternatives to voice.
+
+**Rider safety:** no complex dialogue while moving, no reliance on speech for emergency control, and no autonomous steering, throttle or braking. The rider retains full vehicle control.
+
+**Maturity:** proposed capability only. No voice model, microphone, speaker or road-tested interaction is claimed as integrated or validated.
+
 ## World-Class Engineering Standard v1.0
 
 This product follows the [PUI89 World-Class Engineering Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_WORLD_CLASS_ENGINEERING_STANDARD_V1.0.md), alongside the [PUI89 Simple, Safe & Professional Engineering Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_SIMPLE_SAFE_PROFESSIONAL_STANDARD.md). The shared standard defines requirements traceability, Shared AI Core contracts, PTI evaluation, simulation, safety, hardware provenance, cost engineering, verification and release gates. Product capabilities remain subject to their stated evidence and validation boundaries; this reference does not imply that a gate has been passed.
