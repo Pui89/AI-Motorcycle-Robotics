@@ -465,6 +465,16 @@ The proposed rider interaction profile is deliberately limited to simple, low-di
 
 **Rider safety:** no complex dialogue while moving, no reliance on speech for emergency control, and no autonomous steering, throttle or braking. The rider retains full vehicle control.
 
+**Recommended model candidates for EasyRide AI Scooter (not approved or integrated):**
+
+| Model/tool | Role in scooter interaction | Status |
+|---|---|---|
+| [openai/whisper-small](https://huggingface.co/openai/whisper-small) | Speech-to-text for limited requests, preferably while stationary; evaluate helmet and road noise | PENDING_REVIEW |
+| [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | English spoken navigation/status prompts; Thai TTS is not established | PENDING_REVIEW |
+| [Silero VAD](https://github.com/snakers4/silero-vad) | Speech-segment detection for stationary push-to-talk use | PENDING_REVIEW |
+
+Prioritise physical controls and minimal prompts; do not encourage dialogue while riding. These candidates cannot control steering, throttle or braking. Thai speech generation remains an open candidate-research task.
+
 **Maturity:** proposed capability only. No voice model, microphone, speaker or road-tested interaction is claimed as integrated or validated.
 
 ## World-Class Engineering Standard v1.0
