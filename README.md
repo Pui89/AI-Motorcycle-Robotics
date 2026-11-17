@@ -1,4 +1,4 @@
-# PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
+# PUI89 AI Step-Through Scooter — Inclusive Mobility Concept
 
 ## Open-source-first engineering
 
@@ -28,7 +28,7 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 > **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
 > 
-> **Project:** PUI89 AI Step-Through Scooter — EasyRide  
+> **Project:** PUI89 AI Step-Through Scooter  
 > **Focus:** Human-centred AI step-through scooter and inclusive mobility research concept  
 > **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
 > 
