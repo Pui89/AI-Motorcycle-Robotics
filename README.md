@@ -489,3 +489,15 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
 This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+
+## Portfolio consistency and founder-approved requirements
+
+**PUI89 AI Step-Through Scooter**
+
+Product identity: **PUI89 AI Step-Through Scooter** (do not repeat the PUI89 prefix). Include advisory road-water and flood-risk alerts using supported observations and trusted reports. Unknown water depth/current/road condition means **unknown — do not enter**. This warning requirement is not evidence of waterproofing or water-wading. The rider retains full control of steering, throttle and braking.
+
+**ข้อกำหนดภาษาไทย**
+
+ชื่อผลิตภัณฑ์: **PUI89 AI Step-Through Scooter** (ไม่ต้องใส่ PUI89 ซ้ำ) ต้องมีการแจ้งเตือนเชิงคำแนะนำเรื่องน้ำบนถนนและความเสี่ยงน้ำท่วมจากข้อมูลที่มีแหล่งที่มารองรับ หากไม่ทราบความลึก กระแสน้ำ หรือสภาพถนน ให้แจ้งว่า **ไม่ทราบ — ห้ามเข้า** ไม่ใช่หลักฐานว่ารถกันน้ำหรือลุยน้ำได้ ผู้ขับขี่ควบคุมรถทั้งหมดด้วยตนเอง
+
+**Portfolio boundary:** PUI89 has exactly six active products. Shared AI Core is infrastructure, not a product. Extreme Flood Rescue AI is inactive as a standalone product; preserve historical records but do not present it as an active product.
