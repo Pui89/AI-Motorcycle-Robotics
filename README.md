@@ -489,3 +489,11 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
 This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+
+## Quality engineering and evidence
+
+This repository's nine-part quality-engineering adoption record is [PUI89_QUALITY_ENGINEERING_ADOPTION.md](docs/PUI89_QUALITY_ENGINEERING_ADOPTION.md). Product failure scenarios are maintained in [quality/failure-scenarios.json](quality/failure-scenarios.json).
+
+**Current product-specific boundary:** Flood-risk alerts and road-water warnings are required advisory functions. Show affected road sections, source/timestamp and uncertainty; if water depth, current or passability is unknown, show “unknown — do not enter”. No autonomous steering, throttle, braking or flood-wading capability is claimed.
+
+**Local scenario-contract check:** `python -m unittest discover -s tests -p test_pui89_failure_scenarios.py -v`. Passing this check verifies the scenario data contract only; it does not prove model performance, end-to-end simulation, physical safety or field validation.
