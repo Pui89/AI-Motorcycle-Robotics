@@ -77,7 +77,7 @@ Rider-centred awareness research for a practical step-through two-wheeler, using
 
 **First evidence gate:** licensed road-scene datasets, defined supported classes, held-out evaluation, missed/false detection analysis, uncertainty and latency tests, followed by staged stationary/closed-course evaluation under human supervision and independent safety controls.
 
-**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [shared PTI specification](https://pui89.github.io/ai-core.html) (maintainer repository access required).
+**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [public Shared AI Core overview](https://pui89.github.io/ai-core.html) (maintainer repository access required).
 
 ## Six Core Intelligence Groups — Product Allocation
 
@@ -488,7 +488,7 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
-This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+This diagram follows the [public PUI89 technical architecture overview](https://pui89.github.io/ai-core.htmlPUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
 
 ## Portfolio consistency and founder-approved requirements
 
