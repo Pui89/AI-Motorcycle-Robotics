@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "product": "PUI89 AI Step-Through Scooter",
+  "scenarios": [
+    {
+      "id": "M001",
+      "name": "flood_alert_stale",
+      "input": "Flood warning is outdated or timestamp missing",
+      "expected": "mark_alert_stale_and_warn",
+      "human_review": true
+    },
+    {
+      "id": "M002",
+      "name": "road_water_unknown",
+      "input": "Water depth/current/road passability is unknown",
+      "expected": "display_unknown_do_not_enter",
+      "human_review": true
+    },
+    {
+      "id": "M003",
+      "name": "road_water_report",
+      "input": "Water accumulation or flooded road is reported/detected",
+      "expected": "warn_rider_and_show_source",
+      "human_review": true
+    },
+    {
+      "id": "M004",
+      "name": "route_flood_risk",
+      "input": "Planned route intersects a flood-risk segment",
+      "expected": "warn_and_suggest_alternative_if_reliable",
+      "human_review": true
+    },
+    {
+      "id": "M005",
+      "name": "sensor_disagreement",
+      "input": "Road/weather data sources disagree",
+      "expected": "lower_confidence_and_request_rider_review",
+      "human_review": true
+    },
+    {
+      "id": "M006",
+      "name": "network_loss",
+      "input": "Live flood or map data is unavailable",
+      "expected": "show_data_unavailable_no_false_reassurance",
+      "human_review": true
+    },
+    {
+      "id": "M007",
+      "name": "hazard_false_positive",
+      "input": "Rider disputes a road-water warning",
+      "expected": "show_evidence_source_and_uncertainty",
+      "human_review": true
+    },
+    {
+      "id": "M008",
+      "name": "vehicle_fault",
+      "input": "Vehicle reports a brake, tyre, electrical or thermal fault",
+      "expected": "display_warning_and_defer_to_vehicle_safety_system",
+      "human_review": true
+    },
+    {
+      "id": "M009",
+      "name": "rider_rejection",
+      "input": "Rider rejects a route suggestion",
+      "expected": "cancel_advisory_no_vehicle_control",
+      "human_review": true
+    },
+    {
+      "id": "M010",
+      "name": "unsafe_route_unknown",
+      "input": "Road condition cannot be confirmed",
+      "expected": "advise_avoidance_no_water_crossing_claim",
+      "human_review": true
+    }
+  ]
+}
