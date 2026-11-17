@@ -1,4 +1,6 @@
-# PUI89 EasyRide AI Motorcycle — Inclusive Rider Design Brief
+# PUI89 AI Step-Through Scooter — Inclusive Rider Design Brief
+
+> The filename retains the former internal working title; the official product name is PUI89 AI Step-Through Scooter.
 
 **Design direction:** a friendly, low-step-through electric motorcycle / premium urban scooter concept. The goal is to reduce physical effort and intimidation while retaining a robust, repairable, weather-conscious engineering approach.
 
