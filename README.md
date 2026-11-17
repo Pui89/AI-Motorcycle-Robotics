@@ -10,9 +10,9 @@
 
 **Key capabilities and design priorities:** Road and obstacle awareness; weather and flood-risk context; collision and vehicle-health advisory concepts; emergency assistance and rider-focused alerts.
 
-**Current development stage:** Level 2 — Architecture Defined; concept and engineering foundation, with no functioning vehicle, rider trial or road certification established.
+**Evidence maturity:** **Specified** — the rider-first step-through concept and engineering requirements are documented. No functioning scooter, rider trial, road validation or certification is established.
 
-**Portfolio readiness baseline:** **28%** — last recorded baseline dated **7 November 2026**. This is a historical, evidence-based portfolio readiness snapshot, not a live progress feed or a claim of physical product completion. Refresh it only from the dated PUI89 portfolio register.
+**Evidence reviewed:** 17 November 2026. See the [shared PUI89 development record](https://pui89.github.io/) for current evidence, limitations and the next milestone.
 
 **Evidence boundary:** AI must not command steering, throttle or braking; roadworthiness and rider-safety performance are not validated.
 
