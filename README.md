@@ -77,7 +77,7 @@ Rider-centred awareness research for a practical step-through two-wheeler, using
 
 **First evidence gate:** licensed road-scene datasets, defined supported classes, held-out evaluation, missed/false detection analysis, uncertainty and latency tests, followed by staged stationary/closed-course evaluation under human supervision and independent safety controls.
 
-**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [shared PTI specification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/perception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
+**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [shared PTI specification](https://pui89.github.io/ai-core.html) (maintainer repository access required).
 
 ## Six Core Intelligence Groups — Product Allocation
 
@@ -177,7 +177,7 @@ Develop a welcoming motorcycle concept that is easier to mount, comfortable to s
 - Low-centre battery packaging as a design study, not a verified layout.
 - Calm Deep Navy, pearl white, soft cyan and mint accent palette.
 
-See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg).
+See the [inclusive rider design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg).
 
 ## PUI89 engineering rules
 
@@ -370,7 +370,7 @@ This project-strength review is separate from the documented development stage; 
 
 ## Materials & Hardware — Research Plan
 
-**Status: rider-assistance software concept and motorcycle hardware research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
+**Status: rider-assistance software concept and step-through scooter engineering research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
 
 | Subsystem | Candidate materials / hardware | Purpose and checks before selection |
 |---|---|---|
