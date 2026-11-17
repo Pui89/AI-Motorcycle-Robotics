@@ -1,4 +1,4 @@
-# PUI89 AI Step-Through Scooter — EasyRide Inclusive Mobility Concept
+# PUI89 AI Step-Through Scooter — Inclusive Mobility Concept
 
 ## Open-source-first engineering
 
@@ -28,7 +28,7 @@ PUI89 selects and integrates technologies according to capability, provenance, s
 
 > **PUI89 | Intelligent Systems. Verifiable Decisions. Safer Outcomes.**
 > 
-> **Project:** PUI89 AI Step-Through Scooter — EasyRide  
+> **Project:** PUI89 AI Step-Through Scooter  
 > **Focus:** Human-centred AI step-through scooter and inclusive mobility research concept  
 > **Development stage:** Early concept and engineering foundation; no functioning motorcycle, rider trial or road certification is established.
 > 
@@ -161,13 +161,13 @@ PUI89 uses six shared intelligence groups across its seven independent products.
 
 Develop a welcoming motorcycle concept that is easier to mount, comfortable to sit on and manageable at low speed for a broad range of adult riders. AI assistance is limited to hazard awareness, road-condition context, vehicle-health monitoring and clear advisory support. The rider remains responsible for vehicle control. No autonomous riding or physical actuation is enabled.
 
-## EasyRide V3 visual design
+## PUI89 AI Step-Through Scooter V3 visual design
 
 - **Seat:** black, long touring-style bench with supportive contour; final passenger ergonomics require user trials.
 - **Floor:** one continuous, broad, flat, non-slip platform through the central step-through area, with no middle cut-out or open gap. Structural integration and foot clearance require engineering validation.
 - The updated V3 concept replaces the earlier open-centre illustration and is used on both language versions of the project page and both PUI89 homepages.
 
-## EasyRide visual design
+## PUI89 AI Step-Through Scooter visual design
 
 - Rounded, friendly body panels with a compact, clean silhouette.
 - Low, open step-through space and a broad, non-slip floorboard designed to make mounting in skirts or dresses easier.
@@ -454,7 +454,7 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 
 **Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
 
-## Shared Interaction Intelligence — EasyRide AI Step-Through Scooter
+## Shared Interaction Intelligence — PUI89 AI Step-Through Scooter AI Step-Through Scooter
 
 The proposed rider interaction profile is deliberately limited to simple, low-distraction communication:
 
@@ -465,7 +465,7 @@ The proposed rider interaction profile is deliberately limited to simple, low-di
 
 **Rider safety:** no complex dialogue while moving, no reliance on speech for emergency control, and no autonomous steering, throttle or braking. The rider retains full vehicle control.
 
-**Recommended model candidates for EasyRide AI Scooter (not approved or integrated):**
+**Recommended model candidates for PUI89 AI Step-Through Scooter AI Scooter (not approved or integrated):**
 
 | Model/tool | Role in scooter interaction | Status |
 |---|---|---|
@@ -484,7 +484,7 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 
 ## PUI89 Technical Visual — AI workflow
 
-![EasyRide workflow: road sensing, context perception, warnings and human rider control.](docs/images/pui89-technical-visual.svg)
+![PUI89 AI Step-Through Scooter workflow: road sensing, context perception, warnings and human rider control.](docs/images/pui89-technical-visual.svg)
 
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
