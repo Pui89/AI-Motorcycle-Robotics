@@ -1,5 +1,24 @@
 # PUI89 AI Step-Through Scooter — Inclusive Mobility Concept
 
+![PUI89 AI Step-Through Scooter concept in Deep Navy and Electric Cyan, with two wheels, a long black seat and continuous step-through floorboard](docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg)
+
+## Product at a glance
+
+**Product direction:** A human-centred two-wheel step-through mobility concept with rider-assistance AI.
+
+**User value:** Explore practical, accessible everyday mobility with concise hazard awareness while the rider retains full control.
+
+**Key capabilities and design priorities:** Road and obstacle awareness; weather and flood-risk context; collision and vehicle-health advisory concepts; emergency assistance and rider-focused alerts.
+
+**Current development stage:** Level 2 — Architecture Defined; concept and engineering foundation, with no functioning vehicle, rider trial or road certification established.
+
+**Portfolio readiness baseline:** **28%** — last recorded baseline dated **7 November 2026**. This is a historical, evidence-based portfolio readiness snapshot, not a live progress feed or a claim of physical product completion. Refresh it only from the dated PUI89 portfolio register.
+
+**Evidence boundary:** AI must not command steering, throttle or braking; roadworthiness and rider-safety performance are not validated.
+
+**Project links:** [English website](https://pui89.github.io/ai-robot-motorcycle.html) · [ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html) · [PUI89 portfolio](https://pui89.github.io/)  
+
+---
 ## Open-source-first engineering
 
 PUI89 prioritises open-source software, transparent licensing, reproducible workflows and evidence-led collaboration. Model weights, datasets, hosted services and hardware are assessed separately for provenance, licence terms, security, data handling, resource requirements and intended use. Public availability alone does not establish permission for reuse or commercial deployment.
@@ -147,7 +166,7 @@ PUI89 uses six shared intelligence groups across its six active products. This p
 
 
 <p align="center">
-  <img src="docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg" alt="PUI89 AI Step-Through Scooter concept in Deep Navy and Electric Cyan, with two wheels, a long black seat, continuous step-through floorboard and advisory AI sensors" width="100%">
+
 </p>
 
 **Updated concept direction:** premium two-wheel step-through scooter with an upright rider position, long supportive seat, continuous non-slip floorboard, enclosed bodywork and rider-facing AI alerts. Flood-depth awareness is an advisory research feature only; **20 cm is a future engineering test target, not an approved or safe water-crossing capability.**
