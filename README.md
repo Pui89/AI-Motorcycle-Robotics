@@ -268,7 +268,7 @@ This repository is an initial software and research scaffold. It does not contai
 - **Thai project page:** [PUI89 AI Step-Through Scooter — ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html)
 - **PUI89 main portfolio:** [https://pui89.github.io/](https://pui89.github.io/)
 - **Website source repository:** [Pui89/Pui89.github.io](https://github.com/Pui89/Pui89.github.io)
-- **Car companion project:** [PUI89 AI Robot Car](https://github.com/Pui89/AI-Autonomous-Robot-Car)
+- **Separate vehicle project (not a Scooter variant):** [PUI89 AI Global SUV](https://github.com/Pui89/PUI89-AI-Global-SUV)
 
 ## License
 
@@ -469,7 +469,7 @@ The proposed rider interaction profile is deliberately limited to simple, low-di
 
 **Rider safety:** no complex dialogue while moving, no reliance on speech for emergency control, and no autonomous steering, throttle or braking. The rider retains full vehicle control.
 
-**Recommended model candidates for PUI89 AI Step-Through Scooter AI Scooter (not approved or integrated):**
+**Recommended model candidates for PUI89 AI Step-Through Scooter (not approved or integrated):**
 
 | Model/tool | Role in scooter interaction | Status |
 |---|---|---|
