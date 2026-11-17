@@ -1,5 +1,9 @@
 # PUI89 AI Step-Through Scooter — Inclusive Mobility Concept
 
+**Official product identity:** PUI89 AI Step-Through Scooter — a rider-first, two-wheel step-through scooter concept.
+
+**Independent product boundary:** This is a standalone two-wheel rider-mobility project. **PUI89 AI Global SUV** is a separate medium-size, five-door passenger-vehicle project maintained in [`Pui89/PUI89-AI-Global-SUV`](https://github.com/Pui89/PUI89-AI-Global-SUV). They are not variants or subprojects of one another. They may reuse approved Shared AI Core interfaces, but retain separate product requirements, vehicle engineering, repositories, validation plans and maturity evidence.
+
 ## Open-source-first engineering
 
 PUI89 prioritises open-source software, transparent licensing, reproducible workflows and evidence-led collaboration. Model weights, datasets, hosted services and hardware are assessed separately for provenance, licence terms, security, data handling, resource requirements and intended use. Public availability alone does not establish permission for reuse or commercial deployment.
@@ -454,7 +458,7 @@ The portfolio-wide count is published on the [PUI89 website](https://pui89.githu
 
 **Prototype boundary:** the allowance is for a controlled engineering prototype, not a certified commercial product or production-ready system. It excludes labour, research salaries, facilities, VAT/tax, import duties, freight/insurance unless explicitly quoted, certification, production tooling, mass production, maintenance and contingency. No purchase, download, installation or supplier commitment is authorised by this documentation.
 
-## Shared Interaction Intelligence — PUI89 AI Step-Through Scooter AI Step-Through Scooter
+## Shared Interaction Intelligence — PUI89 AI Step-Through Scooter
 
 The proposed rider interaction profile is deliberately limited to simple, low-distraction communication:
 
