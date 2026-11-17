@@ -1,4 +1,4 @@
-# Project Plan — PUI89 AI Robot Motorcycle
+# Project Plan — PUI89 AI Step-Through Scooter
 
 ## Product definition
 A future AI-enabled motorcycle assistance platform. The first deliverable is a software-only research prototype, not a rideable vehicle or autonomous riding system.

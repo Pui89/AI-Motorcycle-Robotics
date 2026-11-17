@@ -77,7 +77,7 @@ Rider-centred awareness research for a practical step-through two-wheeler, using
 
 **First evidence gate:** licensed road-scene datasets, defined supported classes, held-out evaluation, missed/false detection analysis, uncertainty and latency tests, followed by staged stationary/closed-course evaluation under human supervision and independent safety controls.
 
-**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [shared PTI specification](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/perception/PUI89_PERCEPTION_TASK_INTELLIGENCE_V1.0.md) (maintainer repository access required).
+**Not established:** collision prevention, production-ready rider safety, autonomous control, validated flood operation or physical road performance. See the [public Shared AI Core overview](https://pui89.github.io/ai-core.html) (maintainer repository access required).
 
 ## Six Core Intelligence Groups — Product Allocation
 
@@ -177,7 +177,7 @@ Develop a welcoming motorcycle concept that is easier to mount, comfortable to s
 - Low-centre battery packaging as a design study, not a verified layout.
 - Calm Deep Navy, pearl white, soft cyan and mint accent palette.
 
-See the [inclusive design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg).
+See the [inclusive rider design brief](docs/EASYRIDE_INCLUSIVE_DESIGN.md) and [concept SVG](docs/CONNECTED_FLOOR_BLACK_SEAT_V3.svg).
 
 ## PUI89 engineering rules
 
@@ -370,7 +370,7 @@ This project-strength review is separate from the documented development stage; 
 
 ## Materials & Hardware — Research Plan
 
-**Status: rider-assistance software concept and motorcycle hardware research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
+**Status: rider-assistance software concept and step-through scooter engineering research.** No built, road-approved or validated AI motorcycle is claimed. The rider remains in control at all times.
 
 | Subsystem | Candidate materials / hardware | Purpose and checks before selection |
 |---|---|---|
@@ -488,4 +488,16 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
-This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+This diagram follows the [public PUI89 technical architecture overview](https://pui89.github.io/ai-core.htmlPUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+
+## Portfolio consistency and founder-approved requirements
+
+**PUI89 AI Step-Through Scooter**
+
+Product identity: **PUI89 AI Step-Through Scooter** (do not repeat the PUI89 prefix). Include advisory road-water and flood-risk alerts using supported observations and trusted reports. Unknown water depth/current/road condition means **unknown — do not enter**. This warning requirement is not evidence of waterproofing or water-wading. The rider retains full control of steering, throttle and braking.
+
+**ข้อกำหนดภาษาไทย**
+
+ชื่อผลิตภัณฑ์: **PUI89 AI Step-Through Scooter** (ไม่ต้องใส่ PUI89 ซ้ำ) ต้องมีการแจ้งเตือนเชิงคำแนะนำเรื่องน้ำบนถนนและความเสี่ยงน้ำท่วมจากข้อมูลที่มีแหล่งที่มารองรับ หากไม่ทราบความลึก กระแสน้ำ หรือสภาพถนน ให้แจ้งว่า **ไม่ทราบ — ห้ามเข้า** ไม่ใช่หลักฐานว่ารถกันน้ำหรือลุยน้ำได้ ผู้ขับขี่ควบคุมรถทั้งหมดด้วยตนเอง
+
+**Portfolio boundary:** PUI89 has exactly six active products. Shared AI Core is infrastructure, not a product. Extreme Flood Rescue AI is inactive as a standalone product; preserve historical records but do not present it as an active product.
