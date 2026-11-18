@@ -1,5 +1,21 @@
 # PUI89 AI Step-Through Scooter — Inclusive Mobility Concept
 
+## Product and AI system update — 18 November 2026
+
+**Public product summary (EN):** PUI89 AI Step-Through Scooter is a practical two-wheel step-through mobility concept with rider-first AI awareness. The easy-mount floorboard and human-operated controls are central to the product direction.
+
+**เทคโนโลยีและประโยชน์ (TH):** แนวคิดสกู๊ตเตอร์สองล้อแบบ Step-Through ขึ้นลงง่าย พร้อม AI ช่วยสังเกตยานพาหนะ คนเดินเท้า สิ่งกีดขวาง ป้ายจราจร สภาพถนน และบริบทความเสี่ยงน้ำท่วม ส่งคำเตือนที่กระชับและช่วยแสดงข้อมูลแบตเตอรี่/อุณหภูมิเมื่อมีข้อมูลจากช่องทางที่รองรับ
+
+**AI technology direction:** computer vision; object detection and tracking; GNSS/IMU; edge AI; sensor fusion; weather and road context; read-only battery/vehicle telemetry; uncertainty-aware rider alerts and emergency-assistance information.
+
+**Who it serves:** daily commuters, practical urban riders, delivery/service riders and people who value accessible step-through mobility with additional awareness support.
+
+**Safety boundary:** the rider retains full control of steering, throttle and braking. No autonomous riding or physical actuation. Flood-risk alerts support avoidance and do not establish water-wading or waterproof capability. No functioning scooter, rider trial, road validation, collision-prevention result or certification is claimed.
+
+**Project website:** [English](https://pui89.github.io/ai-robot-motorcycle.html) · [ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html) · [PUI89 portfolio](https://pui89.github.io/)
+
+---
+
 ![PUI89 AI Step-Through Scooter concept in Deep Navy and Electric Cyan, with two wheels, a long black seat and continuous step-through floorboard](docs/PUI89_AI_STEP_THROUGH_SCOOTER_CONCEPT.svg)
 
 ## Product at a glance
