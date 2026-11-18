@@ -20,6 +20,42 @@
 
 ## Product at a glance
 
+## Latest Product Capability Baseline — 18 November 2026
+
+**Capability lifecycle:** Perceive → Understand → Predict → Decide → Act. This is the product-specific target map; Shared AI Core provides reusable foundations.
+
+### Perception and sensory intelligence
+- Rider-facing road awareness: nearby vehicles, pedestrians, animals, obstacles and road context.
+- Surface, visibility, weather, water-on-road and flood-risk cues; warnings support avoidance, not water-crossing decisions.
+- Vehicle health via approved read-only telemetry: battery, motor, electrical, tyre and vibration indicators where available.
+- Acoustic/thermal sensing options subject to weatherproofing, mounting, compute and rider-distraction review.
+
+### Understanding, prediction and rider assistance
+- Hazard prioritisation, concise rider alerts and route-context assistance.
+- Predictive maintenance research from validated scooter telemetry and model-specific baselines.
+- Simulation/digital-twin scenarios for sensor placement, vibration, environmental exposure, fault handling and edge compute.
+- Inclusive step-through ergonomics and rider-first interaction; minimise prompts and avoid complex dialogue while moving.
+
+### Safety, compute and human authority
+- Sensor-health/freshness checks, uncertainty and event evidence.
+- Edge AI resource management and safe degradation as design goals.
+- Advisory-only: no autonomous steering, throttle or braking; rider remains in full control.
+
+### ภาษาไทย — ความสามารถและแนวทางพัฒนา
+- รับรู้สภาพถนนรอบผู้ขับขี่ รถ คนเดินเท้า สัตว์ และสิ่งกีดขวาง
+- วิเคราะห์พื้นผิว ทัศนวิสัย สภาพอากาศ น้ำบนถนน และความเสี่ยงน้ำท่วม เพื่อแจ้งเตือนให้หลีกเลี่ยง ไม่ใช่ตัดสินใจว่าขับผ่านน้ำได้
+- ตรวจสุขภาพรถผ่านข้อมูลอ่านอย่างเดียว เช่น แบตเตอรี่ มอเตอร์ ระบบไฟฟ้า ยาง และแรงสั่น เมื่อมีข้อมูลรองรับ
+- ศึกษาเซนเซอร์เสียงและความร้อนภายใต้ข้อจำกัดการติดตั้ง การป้องกันสภาพอากาศ ทรัพยากรประมวลผล และสมาธิผู้ขับขี่
+- จัดลำดับความเสี่ยง แจ้งเตือนสั้น ๆ และให้ข้อมูลบริบทเส้นทาง
+- ศึกษา Predictive Maintenance จาก telemetry ที่ตรวจสอบแล้วและค่าพื้นฐานเฉพาะรุ่น
+- ใช้ Simulation/Digital Twin ศึกษาตำแหน่งเซนเซอร์ การสั่น สภาพแวดล้อม การจัดการข้อผิดพลาด และ Edge Compute
+- ออกแบบตามหลัก Inclusive Step-Through และผู้ขับขี่เป็นศูนย์กลาง ลดการแจ้งเตือนรบกวนและไม่ส่งเสริมการสนทนาซับซ้อนขณะขับขี่
+- ตรวจสุขภาพเซนเซอร์ ความใหม่ของข้อมูล ความไม่แน่นอน และบันทึกเหตุการณ์
+- AI เป็นระบบแนะนำเท่านั้น ไม่ควบคุมพวงมาลัย คันเร่ง หรือเบรก ผู้ขับขี่ควบคุมรถเองทั้งหมด
+
+**Evidence boundary / ขอบเขตหลักฐาน:** This is a product concept and engineering direction. No scooter integration, road testing, flood-crossing ability, rider-safety performance or autonomous control is validated. / เป็นแนวคิดผลิตภัณฑ์และแนวทางวิศวกรรม ยังไม่มีการยืนยันการติดตั้งในรถ ทดสอบถนน ความสามารถขับผ่านน้ำ สมรรถนะความปลอดภัย หรือการควบคุมอัตโนมัติ
+
+
 **Product direction:** A human-centred two-wheel step-through mobility concept with rider-assistance AI.
 
 **User value:** Explore practical, accessible everyday mobility with concise hazard awareness while the rider retains full control.
