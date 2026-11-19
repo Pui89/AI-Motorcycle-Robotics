@@ -630,3 +630,11 @@ Each record should include, where available: unique incident ID; local date/time
 **ขอบเขตหลักฐานเฉพาะผลิตภัณฑ์:** Road-surface/pothole observations, nearby-vehicle/person risk alerts, verified weather/flood context, unknown water passability, sensor/data-quality faults and supported read-only vehicle-health anomalies. Image review only while safely parked; never encourage viewing while riding.
 
 **สถานะหลักฐาน:** ข้อกำหนดการออกแบบเท่านั้น การบันทึกภาพ การจัดเก็บ การค้นหาตามวัน/เดือน การเล่นเสียงย้อนหลัง การรักษาหลักฐาน ความเป็นส่วนตัว และการกู้คืนยังเป็น **Unknown / Not Tested** จนกว่าจะพัฒนาและทดสอบกับผลิตภัณฑ์จริง
+
+## PUI89 Easy Direct Control Standard v1.0 — Proposed
+
+This product follows the shared [PUI89 Easy Direct Control Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_EASY_DIRECT_CONTROL_STANDARD_V1.0.md). Essential operation and safety information must be available from the scooter itself, using simple handlebar controls and an integrated display; no smartphone or application is required.
+
+**Proposed rider interface:** physical vehicle power/start controls as defined by the vehicle architecture; simple display-accessible AI modes such as Normal, Safety Monitoring and Navigation Assistance; direct status and warning display; and vehicle-standard emergency controls designed independently of the AI layer.
+
+**Operating boundary:** the rider retains full control. PUI89 AI must not command steering, throttle or braking. Warnings must be concise and low-distraction. Remote/application functions are optional and cannot replace on-vehicle warnings or controls.
