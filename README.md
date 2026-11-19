@@ -565,3 +565,12 @@ The product must remain usable for its essential intended functions if a remote 
 These are design requirements and message examples, not claims that the display, controls, sensors or detection capability are already installed or validated.
 
 **Shared standard:** [PUI89 Everyday Intelligence & Multi-Perception Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/interaction/PUI89_EVERYDAY_INTELLIGENCE_MPI_STANDARD_V1.0.md).
+
+
+## No App Required — End-to-End User Experience
+
+PUI89 products must be usable from setup through everyday operation, monitoring, configuration, safe stopping and recovery without requiring customers to download or install an application. Essential customer functions must be available directly through the product or its appropriate local operator station. No mandatory app, account, phone pairing or internet dependency for essential local operation where technically feasible. Remotes and mobile applications are optional convenience interfaces only, never the sole control, critical-alert or recovery path. This is a design requirement, not evidence of completed implementation or validation.
+
+### ไม่ต้องใช้แอป — ประสบการณ์ใช้งานตั้งแต่ต้นจนจบ
+
+ผลิตภัณฑ์ PUI89 ต้องใช้งานได้ตั้งแต่การตั้งค่าไปจนถึงการใช้งานประจำวัน การตรวจสอบ การปรับตั้งค่า การหยุดอย่างปลอดภัย และการกู้คืน โดยลูกค้าไม่ต้องดาวน์โหลดหรือติดตั้งแอป ฟังก์ชันที่จำเป็นต้องเข้าถึงได้โดยตรงผ่านตัวผลิตภัณฑ์หรือสถานีควบคุมในพื้นที่ ไม่บังคับใช้แอป บัญชีผู้ใช้ การจับคู่โทรศัพท์ หรืออินเทอร์เน็ตสำหรับการใช้งานพื้นฐานในพื้นที่เมื่อเป็นไปได้ทางเทคนิค รีโมตและแอปมือถือเป็นเพียงทางเลือกเสริม ไม่ใช่ช่องทางเดียวสำหรับควบคุม รับการแจ้งเตือนสำคัญ หรือกู้คืนระบบ ทั้งหมดนี้เป็นข้อกำหนดการออกแบบ ไม่ใช่หลักฐานว่าดำเนินการติดตั้งหรือทดสอบแล้ว.
