@@ -524,3 +524,53 @@ This product follows the [PUI89 World-Class Engineering Standard v1.0](https://g
 *Proposed rider-assistance workflow. No autonomous steering, throttle or braking; roadworthiness and rider-safety performance are not validated.*
 
 This diagram follows the [PUI89 Technical Visual Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/PUI89_TECHNICAL_VISUAL_STANDARD_V1.0.md). It explains the proposed product-specific AI workflow and does not imply unverified implementation or physical capability.
+
+
+## Everyday Intelligence, Simple Operation & On-Device Alerts
+
+**Design principle:** AI for Everyone. Easy to Use. Safe to Trust. Ready for the Real World.
+
+PUI89 AI Step-Through Scooter follows the PUI89 shared design direction: make everyday life easier through intelligence, not make people learn complicated technology.
+
+- **Simple physical operation:** clear buttons and a safe, bounded start workflow. Basic local use should not require an app, smartphone pairing or internet where technically feasible. Voice is optional.
+- **Multi-Perception Intelligence (MPI):** select mission-appropriate vision, audio, touch/contact, spatial, motion, thermal and environmental sensing. Chemical sensing or material analysis is only for specific validated instruments; these are not universal human-equivalent senses.
+- **On-device text alerts:** a readable physical display is a mandatory design requirement. Show plain-language Information, Warning and Emergency messages, what happened, uncertainty and the next safe step. Keep local alert history. Optional mobile notifications supplement, never replace, device alerts.
+- **Accessibility:** large readable text, clear controls, high contrast, optional audio, plain language and adjustable preferences.
+- **Safety and reliability:** preserve human authority, independent emergency/protective stops, safe hold, fault reporting, uncertainty/abstention and controlled recovery. No silent restart into hazardous action.
+- **Offline-first essentials:** local functions and alerts should continue without internet where technically possible and supported by the final hardware.
+
+- **Vehicle authority:** driver/rider remains in control. These requirements do not authorise autonomous steering, throttle or braking; alerts must be glanceable and non-distracting.
+
+**Shared specification:** [PUI89 Everyday Intelligence & Multi-Perception Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/interaction/PUI89_EVERYDAY_INTELLIGENCE_MPI_STANDARD_V1.0.md). These are design requirements, not claims that displays, sensors, offline operation, animal recognition or physical functions are already implemented or validated.
+
+
+## Local Access, Controls & On-Device Information
+
+**No single point of access. No mandatory smartphone. No remote-only operation.**
+
+The product must remain usable for its essential intended functions if a remote is lost, a phone is unavailable, an app is not installed, or internet/cloud connectivity is lost. The primary interface must fit the product; it does not have to be a button on the robot.
+
+- Provide a clear **primary local control** integrated into the product or vehicle, as appropriate.
+- Provide an **independent fallback** that does not rely on the same remote, phone, app, wireless link or cloud service.
+- Put essential status, instructions and warnings on a display or indicators physically associated with the product.
+- Remotes and mobile apps are optional convenience/secondary interfaces, never the only way to operate, receive critical alerts or safely stop the system.
+- If control or communication is lost, enter a defined safe state and provide a documented local recovery path. Never bypass safety interlocks.
+- Show concise plain-language information: Ready/Not ready, current task, what was detected and confidence, warning and next action, power/health, human-confirmation requests, and completion/fault history.
+- Use Thai/English where implemented, large readable text, clear symbols and optional audio. Do not rely on sound or colour alone.
+
+**Product-specific interface direction**
+- Primary: rider controls and built-in vehicle interface. Fallback: conventional rider-controlled safe stopping and vehicle procedures. Direct information: on-vehicle display/indicators and alerts.
+- Example: “Battery low. Plan a safe stop and recharge.”
+
+These are design requirements and message examples, not claims that the display, controls, sensors or detection capability are already installed or validated.
+
+**Shared standard:** [PUI89 Everyday Intelligence & Multi-Perception Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/interaction/PUI89_EVERYDAY_INTELLIGENCE_MPI_STANDARD_V1.0.md).
+
+
+## No App Required — End-to-End User Experience
+
+PUI89 products must be usable from setup through everyday operation, monitoring, configuration, safe stopping and recovery without requiring customers to download or install an application. Essential customer functions must be available directly through the product or its appropriate local operator station. No mandatory app, account, phone pairing or internet dependency for essential local operation where technically feasible. Remotes and mobile applications are optional convenience interfaces only, never the sole control, critical-alert or recovery path. This is a design requirement, not evidence of completed implementation or validation.
+
+### ไม่ต้องใช้แอป — ประสบการณ์ใช้งานตั้งแต่ต้นจนจบ
+
+ผลิตภัณฑ์ PUI89 ต้องใช้งานได้ตั้งแต่การตั้งค่าไปจนถึงการใช้งานประจำวัน การตรวจสอบ การปรับตั้งค่า การหยุดอย่างปลอดภัย และการกู้คืน โดยลูกค้าไม่ต้องดาวน์โหลดหรือติดตั้งแอป ฟังก์ชันที่จำเป็นต้องเข้าถึงได้โดยตรงผ่านตัวผลิตภัณฑ์หรือสถานีควบคุมในพื้นที่ ไม่บังคับใช้แอป บัญชีผู้ใช้ การจับคู่โทรศัพท์ หรืออินเทอร์เน็ตสำหรับการใช้งานพื้นฐานในพื้นที่เมื่อเป็นไปได้ทางเทคนิค รีโมตและแอปมือถือเป็นเพียงทางเลือกเสริม ไม่ใช่ช่องทางเดียวสำหรับควบคุม รับการแจ้งเตือนสำคัญ หรือกู้คืนระบบ ทั้งหมดนี้เป็นข้อกำหนดการออกแบบ ไม่ใช่หลักฐานว่าดำเนินการติดตั้งหรือทดสอบแล้ว.
