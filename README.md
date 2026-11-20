@@ -49,3 +49,57 @@ AI must **not** command steering, throttle or braking. Flood-risk alerts are adv
 Cross-product architecture, evidence contracts, safety, privacy, security, recovery, device interaction and localization requirements are maintained in the [PUI89 Shared AI Core](https://github.com/Pui89/PUI89-Shared-AI-Core). Scooter-specific rider controls, mounting, vibration, weather exposure and road safety require separate validation.
 
 Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_PORTFOLIO_ALIGNMENT_REGISTER_2026-11-18.md) and [Evidence-Based Development Maturity Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_DEVELOPMENT_STAGE_STANDARD.md).
+
+## Scooter Capabilities & Functional Capacity
+
+**Scope boundary:** PUI89 AI Step-Through Scooter is a rider-first, two-wheel step-through scooter concept with advisory AI. No functioning scooter, selected production platform or road validation is established.
+
+### 1. Physical capacity
+- Two-wheel step-through layout with a practical floorboard and rider-first controls.
+- Rider capacity, passenger rating, payload, gross vehicle mass, dimensions, wheelbase, seat height, ground clearance and structural limits: **TBD** pending vehicle engineering and applicable certification.
+- A previously discussed 190 kg combined rider/passenger/payload figure is **unverified** and is not a capacity rating.
+
+### 2. Mobility capacity
+- Intended for supervised road use within a future validated vehicle operating envelope.
+- Define speed, turning/stability behaviour, braking performance, tyre limits, slope, ground clearance and road-surface envelope with the selected platform.
+- Water exposure/flood depth, including a previously discussed 20 cm target, is **not validated** and must not be represented as safe wading capability.
+- **Measured mobility and stability envelope:** TBD.
+
+### 3. Perception capacity
+- Candidate perception: nearby vehicles, pedestrians, cyclists, animals, obstacles, road surface, potholes, visibility and weather context.
+- Blind-area awareness may be included only where sensor coverage and human-factors testing support it.
+- Monitor rider/vehicle context only through clearly specified, permissioned and validated sensors; do not infer identity, health or intent.
+- Detection coverage, range, false-alarm rate and environmental limits remain TBD.
+
+### 4. Computing capacity
+- Define local edge compute, memory, storage, latency and thermal budgets after sensor selection.
+- Prioritise timely rider alerts, clear uncertainty and robust behaviour during compute faults.
+- **Processor, memory and measured inference performance:** TBD.
+
+### 5. Power capacity
+- Define traction-battery and AI-system power budgets, battery-management interfaces, charging, thermal limits and low-power behaviour after platform selection.
+- **Battery energy, range and charging time:** TBD.
+
+### 6. Communication capacity
+- Essential rider alerts should remain available locally without internet access.
+- Define approved vehicle-local interfaces, optional phone connectivity, pairing, data permissions and loss-of-link behaviour.
+- No cloud connection is required for essential safety alerts.
+- **Protocols and communication range:** TBD.
+
+### 7. Safety capacity
+- AI provides advisory warnings only; rider retains full control of handlebar/steering, throttle and braking.
+- No autonomous steering, throttle, braking, balance actuation or riding is in scope.
+- Alert design must minimise distraction and avoid presenting uncertain hazards as confirmed events.
+- No collision-prevention guarantee, roadworthiness certification or flood-crossing safety claim is made.
+
+### 8. Maintenance capacity
+- Define inspection and service for tyres, brakes, steering, suspension, battery, motor, wiring, sensors and mounting points.
+- Include sensor cleaning/calibration, diagnostic records and safe replacement procedures.
+- **Service intervals and validated maintenance procedures:** TBD.
+
+### 9. Operating limits
+- Concept only; no functioning scooter, rider trial, road validation, stability result or regulatory certification is established.
+- Rider/payload capacity, speed, range, sensor coverage, water exposure and operating conditions remain TBD.
+- The AI must not command steering, throttle or braking.
+
+**Capacity evidence status:** Design direction documented; all numeric rider, payload, power, range and performance capacities remain TBD / not validated.
