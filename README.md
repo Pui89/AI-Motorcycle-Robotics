@@ -110,3 +110,10 @@ Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://
 PUI89 adopts the [Physical & Multimodal Sensor Privacy Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/privacy/PUI89_PHYSICAL_MULTIMODAL_SENSOR_PRIVACY_STANDARD_V1.0.md) as a shared engineering requirement. Any PUI89-installed camera and microphone require physical controls. Route and motion histories are minimised and local. Privacy settings must not compromise rider-operated steering, throttle, braking or OEM safety systems.
 
 **Evidence status:** requirements/specification only. No product-level hardware implementation or verification is claimed by this README section.
+
+
+## Long-Life Battery & Energy Intelligence
+
+PUI89 adopts the [Long-Life Battery & Energy Intelligence Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/energy/PUI89_LONG_LIFE_BATTERY_ENERGY_INTELLIGENCE_STANDARD_V1.0.md) as a shared engineering requirement. Keep PUI89 auxiliary loads distinct from OEM propulsion battery protections unless integration is validated. Minimise parked standby drain and do not compromise propulsion, lighting, braking or rider controls.
+
+Battery runtime, chemistry, capacity, cycle life, charging performance and safety compliance remain **TBD until designed and evidenced**. No unverified runtime or battery-life claim is made. The design must include an energy budget, independent BMS protections, thermal/electrical safety, service strategy and representative runtime validation.
