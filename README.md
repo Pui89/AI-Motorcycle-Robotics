@@ -50,6 +50,12 @@ Cross-product architecture, evidence contracts, safety, privacy, security, recov
 
 Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_PORTFOLIO_ALIGNMENT_REGISTER_2026-11-18.md) and [Evidence-Based Development Maturity Standard](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_DEVELOPMENT_STAGE_STANDARD.md).
 
+## AI Model & Intelligence profile
+
+**Candidate capability profile:** Object Detection and Object Tracking for rider-advisory awareness; Sensor Fusion for approved vehicle/environment sensors; Anomaly Detection and Predictive Models for condition and maintenance alerts. Image Segmentation may be evaluated for road-scene understanding. Rider retains all steering, throttle and braking authority.
+
+All nine shared capability families and their definitions, evaluation requirements, provenance/uncertainty rules and safety boundaries are maintained in the [PUI89 Shared AI Core Model Intelligence Framework](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_MODEL_INTELLIGENCE_FRAMEWORK_V1.0.md). This product profile is a **candidate engineering allocation**, not evidence of model installation, runtime integration, benchmark results, field validation or certified performance. Select and enable each capability only after product-specific requirements, approved data, compute/energy budgets and verification gates are satisfied.
+
 ## Scooter Capabilities & Functional Capacity
 
 **Scope boundary:** PUI89 AI Step-Through Scooter is a rider-first, two-wheel step-through scooter concept with advisory AI. No functioning scooter, selected production platform or road validation is established.
