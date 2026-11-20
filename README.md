@@ -123,3 +123,48 @@ PUI89 adopts the [Physical & Multimodal Sensor Privacy Standard v1.0](https://gi
 PUI89 adopts the [Long-Life Battery & Energy Intelligence Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/energy/PUI89_LONG_LIFE_BATTERY_ENERGY_INTELLIGENCE_STANDARD_V1.0.md) as a shared engineering requirement. Keep PUI89 auxiliary loads distinct from OEM propulsion battery protections unless integration is validated. Minimise parked standby drain and do not compromise propulsion, lighting, braking or rider controls.
 
 Battery runtime, chemistry, capacity, cycle life, charging performance and safety compliance remain **TBD until designed and evidenced**. No unverified runtime or battery-life claim is made. The design must include an energy budget, independent BMS protections, thermal/electrical safety, service strategy and representative runtime validation.
+
+<!-- PUI89_DAILY_PROGRESS:START -->
+## PUI89 project intelligence dashboard
+
+**🟠 28% — Foundation and prototype stage** · **Evidence score:** 28/100  
+**Evidence coverage:** 88% of readiness gates have non-zero credits · **Coverage-derived confidence:** High  
+**Review:** 21 November 2026 05:47 (Asia/Bangkok) · **Cycle:** Daily  
+**Progress:** 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 28%
+
+This is an evidence-weighted readiness estimate, not code completion, product certification, field validation or commercial performance. Scores do not increase with time. Credits change only after human review of traceable evidence.
+
+| Readiness gate | Evidence credit | Visual score |
+|---|---:|---|
+| Purpose & requirements | 8/10 | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| Architecture & engineering | 8/10 | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ |
+| Working software baseline | 4/15 | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Reproducible tests & evaluation | 3/15 | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Integrated product prototype | 0/15 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Safety & real-world validation | 1/15 | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Licensing & regulatory readiness | 3/10 | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ |
+| Release package & support | 1/10 | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| **Total** | **28/100** | **🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜** |
+
+### Monthly history (latest snapshot per month)
+| Month | Score | Graph |
+|---|---:|---|
+| 2026-11 | 28% | 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+
+### Shared AI Core integration
+**0% verified** (0/6 integration controls). Only controls marked verified with a supporting evidence_ref count. See docs/shared-ai-core-integration.json.
+
+### Security and repository health
+🟢 No high-confidence private-key, GitHub-token or AWS-access-key patterns detected by this limited scan.
+
+- Licence file: present
+- Security policy: present
+- Dependency manifests: 0 detected
+- Workflow files: 5 detected
+- Review details: docs/project-health-latest.json
+
+**Next milestone:** Add traceable, reproducible evidence for: Integrated product prototype.
+
+**Limitations:** This automated check is a first-line repository review, not a complete security audit, licence opinion, dependency vulnerability scan, branch-ruleset verification or physical safety validation. Software tests and simulations do not establish a built, certified or field-tested robot.
+
+<!-- PUI89_DAILY_PROGRESS:END -->
