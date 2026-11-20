@@ -103,3 +103,10 @@ Current maturity labels follow the [PUI89 Portfolio Alignment Register](https://
 - The AI must not command steering, throttle or braking.
 
 **Capacity evidence status:** Design direction documented; all numeric rider, payload, power, range and performance capacities remain TBD / not validated.
+
+
+## Physical & Multimodal Sensor Privacy
+
+PUI89 adopts the [Physical & Multimodal Sensor Privacy Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/privacy/PUI89_PHYSICAL_MULTIMODAL_SENSOR_PRIVACY_STANDARD_V1.0.md) as a shared engineering requirement. Any PUI89-installed camera and microphone require physical controls. Route and motion histories are minimised and local. Privacy settings must not compromise rider-operated steering, throttle, braking or OEM safety systems.
+
+**Evidence status:** requirements/specification only. No product-level hardware implementation or verification is claimed by this README section.
