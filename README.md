@@ -126,3 +126,8 @@ PUI89 adopts the [Physical & Multimodal Sensor Privacy Standard v1.0](https://gi
 PUI89 adopts the [Long-Life Battery & Energy Intelligence Standard v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/energy/PUI89_LONG_LIFE_BATTERY_ENERGY_INTELLIGENCE_STANDARD_V1.0.md) as a shared engineering requirement. Keep PUI89 auxiliary loads distinct from OEM propulsion battery protections unless integration is validated. Minimise parked standby drain and do not compromise propulsion, lighting, braking or rider controls.
 
 Battery runtime, chemistry, capacity, cycle life, charging performance and safety compliance remain **TBD until designed and evidenced**. No unverified runtime or battery-life claim is made. The design must include an energy budget, independent BMS protections, thermal/electrical safety, service strategy and representative runtime validation.
+
+
+## AI-01 — Multi-Direction Vision Profile
+
+The [PUI89 AI Step-Through Scooter AI-01 profile](docs/AI01_MULTI_DIRECTION_VISION_PROFILE_V1.0.md) adapts the reusable [PUI89 Multi-Vehicle Surround Vision module](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_MULTI_VEHICLE_SURROUND_VISION_V1.0.md) to a compact rider-first configuration. The initial proposal is forward and rear cameras; side cameras are optional and require a coverage and value review. A two-camera configuration is **not** a 360-degree system. Vibration, weather, mounting, auxiliary power, rider distraction and uncovered areas require separate validation. **Maturity:** proposed profile only; no hardware integration or road validation is claimed.
