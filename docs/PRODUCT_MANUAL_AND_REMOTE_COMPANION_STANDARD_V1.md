@@ -165,3 +165,42 @@ Before claiming offline capability, test with no smartphone/app, radios disabled
 
 ### 9.6 Status boundary
 This appendix defines proposed engineering requirements only. Mark each item planned, specified, implemented, tested or validated based on evidence. Do not claim the product is fully offline, fail-safe, certified or commercially ready until its applicable release gates pass.
+
+
+## 10. Engineering implementation and acceptance criteria
+
+Specification only; no implementation or test pass is implied.
+- Essential rider operation, OEM safety, local stop and safe shutdown must not depend on phone, app, Bluetooth, Wi-Fi, internet, DNS, cloud or remote operator.
+- Define basic use with physical controls and printed manual only. Classify functions local/offline, optional-connected or unavailable; list sensor/compute/model/storage/power dependencies.
+- Rider-operated steering, throttle, braking, propulsion, lighting and OEM safety remain under the validated vehicle architecture. PUI89 connectivity loss must not interfere with rider control or trigger actuation.
+- Maintain local control/indicator inventory and fault responses. Local event logs require integrity, bounded retention, export and storage-full/corrupt behaviour; never silently overwrite protected evidence.
+- Reject unauthenticated, expired, duplicate, replayed and out-of-order commands. Reconnection never causes actuation or replays stale commands. Restart in defined safe state.
+- Define responses for absent phone, app crash, radio/Wi-Fi/internet/cloud loss, stale telemetry, expired authentication, sensor/model failure, low battery and power loss.
+- Every shipped unit includes complete printed User Manual and Quick Start & Safety Guide in destination language. Cover no-phone/no-app/no-Wi-Fi/no-internet use, rider controls, indicators, warnings, connectivity/power loss, troubleshooting, maintenance, privacy and revision. QR is supplementary; page references/index must work without it.
+
+### Mandatory OFF-01–OFF-15 verification
+| ID | Test | Acceptance |
+|---|---|---|
+| OFF-01 | No phone/app | Rider operation and local safety functions unaffected |
+| OFF-02 | Wi-Fi off/no internet | Declared offline functions remain usable |
+| OFF-03 | Cloud/DNS unavailable | Vehicle controls and safety unaffected |
+| OFF-04 | App terminated | Local vehicle controls remain correct; link loss shown |
+| OFF-05 | Remote lost during task | No unexpected steering/throttle/braking/propulsion |
+| OFF-06 | Delayed/duplicate/replay/out-of-order command | Rejected and logged |
+| OFF-07 | Reconnection | No automatic actuation or stale-command replay |
+| OFF-08 | Local stop with radios off | Applicable stop independent; reset does not auto-start |
+| OFF-09 | Low power/power interruption | Safe transition; no unexpected motion on restart |
+| OFF-10 | Storage full/corrupt | Safety effective; fault shown; protected evidence retained |
+| OFF-11 | Sensor/model unavailable | AI reports unavailable/uncertain; rider retains control |
+| OFF-12 | Printed manual only | Safe-use/recovery instructions found without QR/phone |
+| OFF-13 | Local service/no cloud | Authorised technician can inspect/recover |
+| OFF-14 | Reboot after fault | Safe startup; no stale command or unexpected motion |
+| OFF-15 | Wrong manual language/revision | Packaging check catches mismatch |
+
+Test exact build/platform with qualified vehicle safety review. Record setup, procedure, expected/actual, evidence, tester/date and defects. N/A requires approved rationale. Simulation/checklist is not road or vehicle validation.
+
+### Product profile
+PUI89 AI Step-Through Scooter: Rider-first two-wheel scooter concept. Rider-operated steering, throttle, braking, propulsion, lighting and OEM safety remain independent of PUI89 app/cloud. AI advisory may become unavailable with local indication. No remote throttle, steering, braking, ignition/motion activation or unattended movement.
+
+### Release/status
+Offline-ready requires vehicle hazard/architecture review, local-control independence, no-phone/no-network verification, stale-command/reconnection tests, printed manual proof and service demonstration. Separate Specified, Implemented, Tested, Validated and Released labels. Current docs establish requirements only.
