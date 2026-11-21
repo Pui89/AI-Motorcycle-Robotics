@@ -136,3 +136,8 @@ The [PUI89 AI Step-Through Scooter AI-01 profile](docs/AI01_MULTI_DIRECTION_VISI
 ## AI-02 — Object & Obstacle Detection
 
 The [scooter AI-02 profile](docs/AI02_OBJECT_OBSTACLE_DETECTION_PROFILE_V1.0.md) defines rider-focused forward/rear detection, vibration/weather challenges, alert constraints and evaluation gates. Side coverage is not assumed. Proposed; no model or scooter integration is verified.
+
+
+## AI-03 — Vulnerable Road User Awareness
+
+The [scooter AI-03 profile](docs/AI03_VRU_AWARENESS_PROFILE_V1.0.md) proposes concise rider-advisory awareness of pedestrians, children as pedestrians and cyclists. It explicitly preserves the AI-01 forward/rear view limitation: this is not 360-degree coverage, and side/near-field blind areas remain unknown unless separately covered and validated. Vibration, lean, weather, rider occlusion and distraction are key evaluation risks. **Maturity:** proposed documentation only; no model, scooter integration or road validation is claimed. The rider retains full steering, throttle and braking control.
