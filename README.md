@@ -131,3 +131,8 @@ Battery runtime, chemistry, capacity, cycle life, charging performance and safet
 ## AI-01 — Multi-Direction Vision Profile
 
 The [PUI89 AI Step-Through Scooter AI-01 profile](docs/AI01_MULTI_DIRECTION_VISION_PROFILE_V1.0.md) adapts the reusable [PUI89 Multi-Vehicle Surround Vision module](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/architecture/PUI89_MULTI_VEHICLE_SURROUND_VISION_V1.0.md) to a compact rider-first configuration. The initial proposal is forward and rear cameras; side cameras are optional and require a coverage and value review. A two-camera configuration is **not** a 360-degree system. Vibration, weather, mounting, auxiliary power, rider distraction and uncovered areas require separate validation. **Maturity:** proposed profile only; no hardware integration or road validation is claimed.
+
+
+## AI-02 — Object & Obstacle Detection
+
+The [scooter AI-02 profile](docs/AI02_OBJECT_OBSTACLE_DETECTION_PROFILE_V1.0.md) defines rider-focused forward/rear detection, vibration/weather challenges, alert constraints and evaluation gates. Side coverage is not assumed. Proposed; no model or scooter integration is verified.
