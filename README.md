@@ -153,3 +153,12 @@ Proposed advisory-only specification: [AI-04 product profile](docs/AI04_RIDER_BE
 ## Vehicle AI Development Gap Audit
 
 See the [PUI89 Vehicle AI Development Gap Audit v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.md) for the evidence-backed SUV/Scooter maturity matrix, implementation gaps, validation gates and recommended CPU-first sequence. [Thai version](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.th.md). Audit findings do not imply scooter integration or road validation.
+
+
+## Offline Independence & Connectivity Resilience
+
+**The product must work without the app. Safety must work without connectivity.** Basic supported local operation, local status and safety controls must not require a smartphone, app, Wi-Fi, internet or cloud. The complete printed User Manual and printed Quick Start & Safety Guide are supplied inside the product box in the destination-market language. Both are readable without a smartphone, QR scan, account, app, Wi-Fi or internet. QR and short URL are optional supplements. QR and short URL are optional supplements. On link loss, remote commands are disabled and the product follows its own hazard-based safe state. See the [PUI89 Offline Independence & Connectivity Resilience Standard v1.0](https://github.com/Pui89/Pui89.github.io/blob/main/docs/PUI89_OFFLINE_INDEPENDENCE_CONNECTIVITY_RESILIENCE_STANDARD_V1.0.md) and the [product manual/Remote Companion specification](docs/PRODUCT_MANUAL_AND_REMOTE_COMPANION_STANDARD_V1.md).
+
+**Product-specific offline baseline:** Normal rider-operated controls and required vehicle safety functions must be independent of the app and internet. AI assistance may become unavailable with a clear local indication. Loss of connectivity must not cause unexpected throttle, steering, braking, ignition or motion activation. No remote throttle, steering, braking, ignition or unattended movement.
+
+These are development requirements, not claims of implemented, tested or validated capability.
