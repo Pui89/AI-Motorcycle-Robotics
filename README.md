@@ -145,3 +145,7 @@ The [scooter AI-03 profile](docs/AI03_VRU_AWARENESS_PROFILE_V1.0.md) proposes co
 ## AI-03 — Vulnerable Road User Protection
 
 Proposed advisory-only specification: [AI-03 profile](docs/AI03_VULNERABLE_ROAD_USER_PROTECTION_PROFILE_V1.0.md). This is a documentation proposal, not an implemented or validated capability.
+
+## AI-04 — Driver & Rider Behaviour Awareness
+
+Proposed advisory-only specification: [AI-04 product profile](docs/AI04_RIDER_BEHAVIOUR_AWARENESS_PROFILE_V1.0.md). This is a documentation proposal, not an implemented or validated capability.
