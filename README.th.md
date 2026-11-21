@@ -68,3 +68,7 @@ PUI89 AI Step-Through Scooter เป็นแนวคิดยานพาห�
 - [Repository](https://github.com/Pui89/AI-Step-Through-Scooter)
 
 PUI89 AI Step-Through Scooter เป็นผลิตภัณฑ์ Mobility แยกจาก AI Global SUV และไม่มีการควบคุมการขับขี่อัตโนมัติ
+
+## การตรวจสอบช่องว่างการพัฒนา Vehicle AI
+
+อ่าน [PUI89 Vehicle AI Development Gap Audit v1.0 ภาษาไทย](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.th.md) เพื่อดูสถานะ SUV/Scooter ตามหลักฐาน ช่องว่างการพัฒนา Validation Gates และลำดับการพัฒนา CPU-first พร้อม [ฉบับภาษาอังกฤษ](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.md) ผล Audit ไม่ได้หมายถึงมีการเชื่อมต่อสกู๊ตเตอร์หรือผ่านการทดสอบบนถนนแล้ว

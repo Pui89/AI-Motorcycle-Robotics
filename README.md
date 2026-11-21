@@ -149,3 +149,7 @@ Proposed advisory-only specification: [AI-03 profile](docs/AI03_VULNERABLE_ROAD_
 ## AI-04 — Driver & Rider Behaviour Awareness
 
 Proposed advisory-only specification: [AI-04 product profile](docs/AI04_RIDER_BEHAVIOUR_AWARENESS_PROFILE_V1.0.md). This is a documentation proposal, not an implemented or validated capability.
+
+## Vehicle AI Development Gap Audit
+
+See the [PUI89 Vehicle AI Development Gap Audit v1.0](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.md) for the evidence-backed SUV/Scooter maturity matrix, implementation gaps, validation gates and recommended CPU-first sequence. [Thai version](https://github.com/Pui89/PUI89-Shared-AI-Core/blob/main/docs/engineering/PUI89_VEHICLE_AI_DEVELOPMENT_GAP_AUDIT_V1.0.th.md). Audit findings do not imply scooter integration or road validation.
