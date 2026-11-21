@@ -1,5 +1,8 @@
 # PUI89 AI Step-Through Scooter
 
+[English](README.md) · [ภาษาไทย](README.th.md)
+
+
 **A rider-first, two-wheel step-through scooter concept with advisory AI awareness.**
 
 [English project page](https://pui89.github.io/ai-robot-motorcycle.html) · [ภาษาไทย](https://pui89.github.io/ai-robot-motorcycle-th.html) · [PUI89 portfolio](https://pui89.github.io/)
